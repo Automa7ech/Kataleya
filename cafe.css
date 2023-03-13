@@ -201,13 +201,13 @@ div{
 .texto-fondo {
     margen: 0px;
     posición: absoluto;
-    fondo: 10)px;
+    fondo: 10px;
     izquierda: 0;
     ancho: 100%;
-    altura: 30)px;
+    altura: 30px;
     color de fondo: rgba(0, 0, 0, 0.2);
     color: rgb(0, 0, 0);
     acolchado: 0px 0px 0px 0px;
     texto-alinear: centro;
-    radio fronterizo: 20)px;
+    radio fronterizo: 20px;
 }
