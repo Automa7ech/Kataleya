@@ -13,6 +13,9 @@ h1{
     width: 95%;
     margin: 0 auto;
 }
+.barra nav{
+    width: 100px;
+}
 .imgPrin{
     background-image: url(banner.jpg);
     background-repeat: no-repeat;
@@ -124,13 +127,19 @@ p{
     }
     .morade{
         border-radius: 20px;
-    }    
+    }  
+    .final{
+        height: 100px;
+    }  
     @media(max-width: 600px){
         section{
             flex-direction: column;
             width: 100%;
             grid-template-columns: 1fr 1fr;
-        }    
+        }  
+        .barra h1{
+            font-size: 1fr;
+        }  
         p{
             font-size: 7px;
         }
@@ -210,4 +219,3 @@ div{
     text-align: center;
     border-radius: 20px;
 }
-  
