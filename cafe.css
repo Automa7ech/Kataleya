@@ -13,8 +13,11 @@ h1{
     width: 95%;
     margin: 0 auto;
 }
-.barra nav{
-    width: 100px;
+
+.peque{
+    margin-left: 10px;
+    width: 55px;
+    height: auto;
 }
 .imgPrin{
     background-image: url(banner.jpg);
@@ -137,9 +140,9 @@ p{
             width: 100%;
             grid-template-columns: 1fr 1fr;
         }  
-        .barra h1{
+        .barra nav{
             font-size: 1fr;
-        }  
+        } 
         p{
             font-size: 7px;
         }
@@ -152,6 +155,9 @@ p{
         .nav-coffee{
             width: 90%;
             height: auto;
+        }
+        .barra{
+            width: 95%;
         }
         
     }
