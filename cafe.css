@@ -134,6 +134,9 @@ p{
     .final{
         height: 100px;
     }  
+    .carta{
+    height: 175px;
+    }
     @media(max-width: 600px){
         section{
             flex-direction: column;
@@ -158,7 +161,10 @@ p{
         }
         .barra{
             width: 95%;
-        }     
+        }  
+        .carta{
+            height: 125px;
+            }   
     }
 }
 .final{
