@@ -31,7 +31,7 @@ h1{
     color: #ffffff;
     text-decoration: none;
 }
-.simgPrin h1 {
+.imgPrin h1 {
     text-align: center;
     font-weight: 400;
 }
@@ -90,15 +90,15 @@ section{
     width: 80%;
     margin: 20px 5% 20px 5%;
     font-size: 125%;
-    border-radius: 0px 20px 0px 20px;
-    background: rgb(233, 233, 235);
+    border-top-right-radius:40px;
+    border-bottom-left-radius:40px;    
     border: 3px solid rgb(58, 53, 56);
     box-shadow: 10px 10px 5px rgba(73, 72, 72, 0.5);
     text-justify:unset;
 }
 .carta{
     width: 100%;
-    height: auto;
+    height: 275px;
     border-bottom-left-radius: 20px;
 }
 h4{
@@ -158,8 +158,7 @@ p{
         }
         .barra{
             width: 95%;
-        }
-        
+        }     
     }
 }
 .final{
