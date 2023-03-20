@@ -98,7 +98,7 @@ section{
 }
 .carta{
     width: 100%;
-    height: 275px;
+    height: auto;
     border-bottom-left-radius: 20px;
 }
 h4{
@@ -133,10 +133,7 @@ p{
     }  
     .final{
         height: 100px;
-    }  
-    .carta{
-    height: 175px;
-    }
+    } 
     @media(max-width: 600px){
         section{
             flex-direction: column;
@@ -162,9 +159,7 @@ p{
         .barra{
             width: 95%;
         }  
-        .carta{
-            height: 150px;
-            }   
+          
     }
 }
 .final{
