@@ -1,0 +1,149 @@
+.tamano{
+    font-size: 60px;
+}
+.contenedor{
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+.peque{
+    margin-left: 10px;
+    width: 55px;
+    height: auto;
+}
+/* -------------------------------BAnner----------------------------- */
+.imgPrin{
+    background-image: url(../img_base/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    height: 30rem;
+}
+.imgPrin a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.imgPrin h1 {
+    text-align: center;
+    font-weight: 400;
+}
+.imgPrin h1 span {
+    font-weight: 700;
+}
+.no-margin {
+    margin: 0px;
+    font-size: 1fr;
+}
+.texto-header {
+    font-style: italic;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.coffee{
+    display: flex;
+    margin-left: 30%;
+    margin-right: 30%; 
+    width: 40%;
+    align-items: center;
+}
+.coffee img{ 
+    flex: 1;
+    border-radius: 30px;
+    height: 100%;
+    width: 100%;
+}
+.coffee p{
+    flex: 1;
+    text-align: right;
+    margin: 0px 0px 0px 20%;
+    position: absolute;
+    font-size: 150%;
+    color: white;
+}
+.grupo{
+    padding: 0px 10px 10px 10px;
+    width: 80%;
+    margin: 20px 5% 20px 5%;
+    font-size: 125%;
+    border-top-right-radius:40px;
+    border-bottom-left-radius:40px;    
+    border-right: 3px solid rgb(63, 2, 55);
+    border-left: 3px solid rgb(63, 2, 55);
+    text-justify:unset;
+}
+.grupo img{
+    width: 100%;
+    height: auto;
+    border-bottom-left-radius: 20px;
+    border-left: 2px solid rgb(58, 53, 56);
+}
+.grupo hr{
+    line-height: 10px;
+}
+.grupo:hover{
+    color:rgb(177, 10, 141);
+}
+.final{
+    width: 100%;
+    background: rgb(74, 74, 75);
+    height: max-content;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+}
+.enlace{
+    height: 40%;
+    width: 40%;
+    margin: 10px;
+}
+.red{
+    width: 100%;
+    height: auto;
+}
+.tool{
+    color: white;
+    font-size: 1fr;
+}
+.cuadro{
+    background: white;
+    color:rgb(63, 2, 55);
+    padding: 2px 2px 2px 2px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.morade{
+    background: rgb(63, 2, 55);
+    color:rgb(255, 255, 255);
+    padding: 2px 2px 2px 2px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.parrafo{
+    color:white;
+}
+.container {
+    position: relative;
+    padding: 0px;
+    text-align: center;
+} 
+.texto-fondo {
+    margin: 0px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgb(0, 0, 0);
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    border-radius: 20px;
+    border-right: 3px solid rgb(63, 2, 55); border-left: 2px solid rgb(63, 2, 55);
+}

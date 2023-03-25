@@ -1,0 +1,53 @@
+@media(max-width:900px){
+    section{
+        grid-template-columns:  1fr 1fr 1fr;
+    }
+    h4{
+        max-height: max-content;
+        font-size:medium;
+    }
+    p{
+        font-size: 12px;
+    }
+    .cuadro{
+        border-radius: 20px;
+    }
+    .morade{
+        border-radius: 20px;
+    }  
+    .final{
+        height: 100px;
+    } 
+    @media(max-width: 600px){
+        section{
+            flex-direction: column;
+            width: 100%;
+            grid-template-columns: 1fr 1fr;
+        }  
+        .barra nav{
+            font-size: 1fr;
+        } 
+        p{
+            font-size: 7px;
+        }
+        h4{
+            font-size: small;
+        }
+        .parrafo{
+            font-size: 10px;        
+        }
+        .coffee{
+            margin-left: 5%;
+            margin-right: 5%;
+            width: 90%;
+            height: auto;
+        }
+        .coffee p{
+            margin: 0px 0px 0px 35%;
+        }
+        .barra{
+            width: 95%;
+        }  
+          
+    }
+}
