@@ -24,7 +24,6 @@ h1{
     background-repeat: no-repeat;
     background-position: center center;
     background-size:cover;
-
     height: 30rem;
 }
 .imgPrin a {
@@ -92,24 +91,34 @@ section{
     font-size: 125%;
     border-top-right-radius:40px;
     border-bottom-left-radius:40px;    
-    border: 3px solid rgb(58, 53, 56);
-    box-shadow: 10px 10px 5px rgba(73, 72, 72, 0.5);
+    border-right: 3px solid rgb(63, 2, 55);
+    border-left: 3px solid rgb(63, 2, 55);
+    /* box-shadow: 5px 5px 5px rgba(73, 72, 72, 0.5); */
     text-justify:unset;
 }
-.carta{
+.grupo img{
     width: 100%;
     height: auto;
     border-bottom-left-radius: 20px;
+    border-left: 2px solid rgb(58, 53, 56);
+}
+.grupo hr{
+    line-height: 10px;
+}
+.grupo:hover{
+    color:rgb(177, 10, 141);
 }
 h4{
     height:20px;
     margin-bottom: 0px;
     text-align: center;
-    background: rgb(88, 8, 71);
+    background: rgb(255, 255, 255);
     padding: 10px 10px 10px 10px;
-    color: white;
+    color:  rgb(88, 8, 71);
     border-top-right-radius: 30px;
     font-size: larger;
+    border-left: 2px solid rgb(63, 2, 55);
+    border-top: 2px solid rgb(63, 2, 55);
 }
 p{
     font-size: 17px;
@@ -224,4 +233,5 @@ div{
     padding: 0px 0px 0px 0px;
     text-align: center;
     border-radius: 20px;
+    border-right: 3px solid rgb(63, 2, 55); border-left: 2px solid rgb(63, 2, 55);
 }
