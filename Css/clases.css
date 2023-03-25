@@ -92,15 +92,15 @@
 }
 .final{
     width: 100%;
-    background: rgb(74, 74, 75);
+    background: rgb(0, 0, 0);
     height: max-content;
     display: grid;
     grid-template-columns: 50% 50%;
     justify-content: space-around;
 }
 .enlace{
-    height: 40%;
-    width: 40%;
+    height: 30%;
+    width: 30%;
     margin: 10px;
 }
 .red{
