@@ -14,9 +14,6 @@
     }
     .morade{
         border-radius: 20px;
-    }  
-    .final{
-        height: 100px;
     } 
     @media(max-width: 600px){
         section{

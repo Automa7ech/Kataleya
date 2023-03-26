@@ -64,7 +64,7 @@
     text-align: right;
     margin: 0px 0px 0px 20%;
     position: absolute;
-    font-size: 150%;
+    font-size: 125%;
     color: white;
 }
 .grupo{
@@ -83,6 +83,10 @@
     height: auto;
     border-bottom-left-radius: 20px;
     border-left: 2px solid rgb(58, 53, 56);
+    background-image: url(../img_base/fondo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
 }
 .grupo hr{
     line-height: 10px;
