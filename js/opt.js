@@ -1,5 +1,5 @@
-var miImagen = document.getElementById("mi-imagen");
+var miImagen = document.getElementByClass("mi-imagen");
 
 miImagen.addEventListener("load", function() {
-  miImagen.style.height = miImagen.naturalHeight + "px";
+  miImagen.style.height = "auto";
 });
