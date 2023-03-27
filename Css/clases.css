@@ -89,6 +89,12 @@
 .mi-imagen {
   height: 200px;
 }
+.mi-imagen1{
+    height: 150px;
+}
+.mi-imagen2{
+    height: 225px;
+}
 .grupo hr{
     line-height: 10px;
 }
