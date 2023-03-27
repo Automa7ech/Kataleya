@@ -1,5 +1,3 @@
-var miImagen = document.getElementByClass("mi-imagen");
-
-miImagen.addEventListener("load", function() {
-  miImagen.style.height = "auto";
-});
+const miImagen = document.querySelector('.mi-clase');
+const altura = window.getComputedStyle(miImagen).getPropertyValue('height');
+miImagen.style.height = altura;
