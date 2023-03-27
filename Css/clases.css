@@ -81,12 +81,12 @@
 .grupo img{
     border-bottom-left-radius: 20px;
     border-left: 2px solid rgb(58, 53, 56);
-    background-image: url(../img_base/fondo.png); 
+    background-image: url(../img_base/T\ \(2\).png); 
     background-repeat: no-repeat;
     background-size: 100% auto;
     width: 100%;
 }
-#mi-imagen {
+.mi-imagen {
   height: 200px;
 }
 .grupo hr{
