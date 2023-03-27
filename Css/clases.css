@@ -79,14 +79,15 @@
     text-justify:unset;
 }
 .grupo img{
-    width: 100%;
-    height: max-content;
     border-bottom-left-radius: 20px;
     border-left: 2px solid rgb(58, 53, 56);
-    background-image: url(../img_base/fondo.png);
+    background-image: url(../img_base/fondo.png); 
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
+    background-size: 100% auto;
+    width: 100%;
+}
+#mi-imagen {
+  height: 200px;
 }
 .grupo hr{
     line-height: 10px;
