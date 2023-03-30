@@ -86,20 +86,11 @@
     background-size: 100% auto;
     width: 100%;
 }
-.mi-imagen {
-  height: 200px;
-}
-.mi-imagen1{
-    height: 150px;
-}
-.mi-imagen2{
-    height: 225px;
-}
 .grupo hr{
     line-height: 10px;
 }
 .grupo:hover{
-    color:rgb(177, 10, 141);
+    color:rgb(104, 10, 57);
 }
 .final{
     width: 100%;

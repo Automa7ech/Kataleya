@@ -28,8 +28,9 @@ h4{
     color:  rgb(88, 8, 71);
     border-top-right-radius: 30px;
     font-size: larger;
-    border-left: 2px solid rgb(63, 2, 55);
     border-top: 2px solid rgb(63, 2, 55);
+    border-left: 2px solid rgb(63, 2, 55);
+
 }
 p{
     font-size: 17px;
