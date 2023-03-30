@@ -1,3 +1,10 @@
-const miImagen = document.querySelector('.mi-imagen');
-const altura = window.getComputedStyle(miImagen).getPropertyValue('height');
-miImagen.style.height = altura;
+(function(){
+    'use strict';
+    document.addEventListener('DOMContentLoaded',function(){
+
+        const miImagen = document.querySelector('.grupo img');
+        for(var i=0; i< miImagen.length;i++){
+            miImagen[i].style.height = 'auto';
+        }
+    });
+})();
