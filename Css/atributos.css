@@ -14,10 +14,25 @@ h3{
     margin-top: 0px;
     margin-bottom: 0px;
 }
-section{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: space-around;
+aside {
+    width: max-content;
+    margin: 10px 10px 10px 10px;
+    border-style: outset;
+    padding: 10px;
+    justify-content: center;
+}
+aside img{
+    height: 200px;
+    width: auto;
+    justify-content: center;
+}
+aside p{
+    font-size: 10px;
+}
+h2{
+    margin: 10px;
+    width: 200px;
+    text-align: center;
 }
 h4{
     margin-top: 10px;
@@ -39,7 +54,4 @@ p{
 article{
     display: flex;
     justify-content: center;
-}
-div{
-    margin: 0px 10px 10px 10px;
 }

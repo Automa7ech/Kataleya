@@ -40,7 +40,6 @@
     text-align: center;
     margin-top: 10rem;
 }
-
 .barra {
     display: flex;
     justify-content: space-between;
@@ -67,6 +66,28 @@
     font-size: 125%;
     color: white;
 }
+.static{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+}
+.deslizar{
+    display: inline-flex;
+    width: 100%; 
+    overflow-x:auto;
+}
+.left{
+    position:absolute;
+    width: 40px;
+    margin-top: 120px;
+}
+.right{
+    position:absolute;
+    right: 0;
+    width: 40px;
+    margin-top: 120px;
+
+}
 .grupo{
     padding: 0px 10px 10px 10px;
     width: 80%;
@@ -74,7 +95,7 @@
     font-size: 125%;
     border-top-right-radius:40px;
     border-bottom-left-radius:40px;    
-    border-right: 3px solid rgb(63, 2, 55);
+    border-right: 3px solid rgb(0, 0, 0);
     border-left: 3px solid rgb(63, 2, 55);
     text-justify:unset;
 }

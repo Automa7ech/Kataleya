@@ -1,5 +1,5 @@
 @media(max-width:900px){
-    section{
+    .static{
         grid-template-columns:  1fr 1fr 1fr;
     }
     h4{
@@ -16,7 +16,7 @@
         border-radius: 20px;
     } 
     @media(max-width: 600px){
-        section{
+        .static{
             flex-direction: column;
             width: 100%;
             grid-template-columns: 1fr 1fr;
