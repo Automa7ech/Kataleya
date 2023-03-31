@@ -13,7 +13,7 @@
 }
 /* -------------------------------BAnner----------------------------- */
 .imgPrin{
-    background-image: url(../img_base/banner-coffee.jpg);
+    background-image: url(../img_base/banner.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size:cover;
@@ -80,13 +80,14 @@
     position:absolute;
     width: 40px;
     margin-top: 120px;
+    margin-left: 5px;
 }
 .right{
     position:absolute;
     right: 0;
     width: 40px;
     margin-top: 120px;
-
+    margin-right: 5px;
 }
 .grupo{
     padding: 0px 10px 10px 10px;
@@ -110,6 +111,9 @@
 }
 .grupo hr{
     line-height: 10px;
+}
+.grupo p{
+    font-size: 20px;
 }
 .grupo:hover{
     color:rgb(104, 10, 57);

@@ -6,8 +6,8 @@
         max-height: max-content;
         font-size:medium;
     }
-    p{
-        font-size: 12px;
+    .grupo p{
+        font-size: 10px;
     }
     .cuadro{
         border-radius: 20px;
@@ -23,9 +23,6 @@
         }  
         .barra nav{
             font-size: 1fr;
-        } 
-        p{
-            font-size: 7px;
         }
         h4{
             font-size: small;
