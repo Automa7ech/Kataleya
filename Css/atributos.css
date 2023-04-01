@@ -1,19 +1,23 @@
-body{
+body {
     margin: 0px 0px 0px 0px;
 }
-h1{
+
+h1 {
     font-size: 50px;
 }
-h3{
-    color:rgb(88, 8, 71);
+
+h3 {
+    color: rgb(88, 8, 71);
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
 }
-nav{
+
+nav {
     display: flex;
     /* justify-content: space-around;  */
 }
+
 aside {
     width: max-content;
     margin: 10px 10px 10px 10px;
@@ -21,33 +25,43 @@ aside {
     padding: 10px;
     justify-content: center;
 }
-aside img{
+
+aside img {
     height: 200px;
     width: auto;
     justify-content: center;
 }
-aside p{
+
+aside p {
     font-size: 10px;
 }
-aside h2{
+
+aside h2 {
     margin: 10px;
     width: 200px;
     text-align: center;
 }
-h4{
+
+h4 {
     margin-top: 10px;
-    height:20px;
+    height: 20px;
     margin-bottom: 0px;
     text-align: center;
     background: rgb(255, 255, 255);
-    color:  rgb(88, 8, 71);
+    color: rgb(88, 8, 71);
     font-size: larger;
-
 }
-p{
+
+p {
     font-size: 17px;
 }
-article{
+
+article {
     display: flex;
     justify-content: center;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
 }
