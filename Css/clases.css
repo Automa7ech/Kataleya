@@ -46,14 +46,13 @@
     align-items: center;
 }
 .coffee{
-    width: 100%;
     padding: 10px;
-    background-color: rgb(255, 255, 255);
-    border-style: outset;
+    background-color: rgb(5, 5, 5);
 }
 .coffee h2{
-    margin: 0px auto;
-    color: rgb(0, 0, 0);
+    max-width: max-content;
+    margin: 0;
+    color: rgb(255, 255, 255);
 }
 .static{
     display: grid;
@@ -81,7 +80,7 @@
 }
 .grupo{
     padding: 0px 10px 10px 10px;
-    margin: 10px 5%;
+    margin: 10px 3%;
     font-size: 125%;
     border-style: outset;
     border-bottom-left-radius: 30px;

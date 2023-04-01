@@ -12,7 +12,7 @@ h3{
 }
 nav{
     display: flex;
-    justify-content: space-around; 
+    /* justify-content: space-around;  */
 }
 aside {
     width: max-content;
@@ -40,7 +40,6 @@ h4{
     margin-bottom: 0px;
     text-align: center;
     background: rgb(255, 255, 255);
-    padding: 10px 10px 10px 10px;
     color:  rgb(88, 8, 71);
     font-size: larger;
 
