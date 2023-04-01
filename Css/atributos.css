@@ -10,6 +10,10 @@ h3{
     margin-top: 0px;
     margin-bottom: 0px;
 }
+nav{
+    display: flex;
+    justify-content: space-around; 
+}
 aside {
     width: max-content;
     margin: 10px 10px 10px 10px;

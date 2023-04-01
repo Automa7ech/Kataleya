@@ -65,10 +65,7 @@
     width: 100%; 
     overflow-x:auto;
 }
-.ptp{
-    display: flex;
-    justify-content: space-around; 
-}
+
 .left{
     position:absolute;
     width: 40px;
