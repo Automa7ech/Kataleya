@@ -21,7 +21,10 @@
                 var nuevoTexto = document.createTextNode('Cerrado');
                 nuevoTitulo.appendChild(nuevoTexto);
             }
-        }
+        }else{
+            var nuevoTexto = document.createTextNode('No Laborable');
+            nuevoTitulo.appendChild(nuevoTexto);
+        };
         var viejoNodo = document.querySelector('.texto-header h2');
         viejoNodo.parentNode.replaceChild(nuevoTitulo, viejoNodo);
     
