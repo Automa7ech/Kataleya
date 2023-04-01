@@ -6,6 +6,9 @@
         max-height: max-content;
         font-size:medium;
     }
+    .coffee{
+        max-width: max-content;
+    }
     .grupo p{
         font-size: 10px;
     }
@@ -29,15 +32,6 @@
         }
         .parrafo{
             font-size: 10px;        
-        }
-        .coffee{
-            margin-left: 5%;
-            margin-right: 5%;
-            width: 90%;
-            height: auto;
-        }
-        .coffee p{
-            margin: 0px 0px 0px 35%;
         }
         .barra{
             width: 95%;

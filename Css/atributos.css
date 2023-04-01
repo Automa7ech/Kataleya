@@ -4,10 +4,6 @@ body{
 h1{
     font-size: 50px;
 }
-nav{
-    display: flex;
-    justify-content: space-around; 
-}
 h3{
     color:rgb(88, 8, 71);
     text-align: center;
@@ -42,10 +38,7 @@ h4{
     background: rgb(255, 255, 255);
     padding: 10px 10px 10px 10px;
     color:  rgb(88, 8, 71);
-    border-top-right-radius: 30px;
     font-size: larger;
-    border-top: 2px solid rgb(63, 2, 55);
-    border-left: 2px solid rgb(63, 2, 55);
 
 }
 p{

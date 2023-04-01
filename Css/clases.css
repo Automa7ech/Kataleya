@@ -46,25 +46,14 @@
     align-items: center;
 }
 .coffee{
-    display: flex;
-    margin-left: 30%;
-    margin-right: 30%; 
-    width: 40%;
-    align-items: center;
-}
-.coffee img{ 
-    flex: 1;
-    border-radius: 30px;
-    height: 100%;
     width: 100%;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-style: outset;
 }
-.coffee p{
-    flex: 1;
-    text-align: right;
-    margin: 0px 0px 0px 20%;
-    position: absolute;
-    font-size: 125%;
-    color: white;
+.coffee h2{
+    margin: 0px auto;
+    color: rgb(0, 0, 0);
 }
 .static{
     display: grid;
@@ -75,6 +64,10 @@
     display: inline-flex;
     width: 100%; 
     overflow-x:auto;
+}
+.ptp{
+    display: flex;
+    justify-content: space-around; 
 }
 .left{
     position:absolute;
@@ -91,18 +84,12 @@
 }
 .grupo{
     padding: 0px 10px 10px 10px;
-    width: 80%;
-    margin: 20px 5% 20px 5%;
+    margin: 10px 5%;
     font-size: 125%;
-    border-top-right-radius:40px;
-    border-bottom-left-radius:40px;    
-    border-right: 3px solid rgb(0, 0, 0);
-    border-left: 3px solid rgb(63, 2, 55);
-    text-justify:unset;
+    border-style: outset;
+    border-bottom-left-radius: 30px;
 }
 .grupo img{
-    border-bottom-left-radius: 20px;
-    border-left: 2px solid rgb(58, 53, 56);
     background-image: url(../img_base/T\ \(2\).png); 
     background-repeat: no-repeat;
     background-size: 100% auto;
