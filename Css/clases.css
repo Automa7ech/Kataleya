@@ -1,107 +1,131 @@
-.tamano{
+.tamano {
     font-size: 60px;
 }
-.contenedor{
+
+.contenedor {
     max-width: 1200px;
     width: 95%;
     margin: 0 auto;
 }
-.peque{
+
+.peque {
     margin-left: 10px;
     width: 55px;
     height: auto;
 }
+
+
 /* -------------------------------BAnner----------------------------- */
-.imgPrin{
+
+.imgPrin {
     background-image: url(../img_base/banner.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size:cover;
-    height: 30rem;
+    background-size: cover;
+    height: 50rem;
+    top: 0;
 }
+
 .imgPrin a {
     color: #ffffff;
     text-decoration: none;
 }
+
 .imgPrin h1 {
     text-align: center;
     font-weight: 400;
 }
+
 .imgPrin h1 span {
     font-weight: 700;
 }
+
 .no-margin {
     margin: 0px;
     font-size: 1fr;
 }
+
 .texto-header {
     font-style: italic;
     color: #ffffff;
     text-align: center;
     margin-top: 10rem;
 }
+
 .barra {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.coffee{
+
+.coffee {
     padding: 10px;
     background-color: rgb(5, 5, 5);
 }
-.coffee h2{
+
+.coffee h2 {
     max-width: max-content;
     margin: 0;
     color: rgb(255, 255, 255);
 }
-.static{
+
+.static {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: space-around;
 }
-.deslizar{
+
+.deslizar {
     display: inline-flex;
-    width: 100%; 
-    overflow-x:auto;
+    width: 100%;
+    overflow-x: auto;
 }
 
-.left{
-    position:absolute;
+.left {
+    position: absolute;
     width: 40px;
     margin-top: 120px;
     margin-left: 5px;
 }
-.right{
-    position:absolute;
+
+.right {
+    position: absolute;
     right: 0;
     width: 40px;
     margin-top: 120px;
     margin-right: 5px;
 }
-.grupo{
+
+.grupo {
     padding: 0px 10px 10px 10px;
     margin: 10px 3%;
     font-size: 125%;
     border-style: outset;
     border-bottom-left-radius: 30px;
 }
-.grupo img{
-    background-image: url(../img_base/T\ \(2\).png); 
+
+.grupo img {
+    background-image: url(../img_base/T\ \(2\).png);
     background-repeat: no-repeat;
     background-size: 100% auto;
     width: 100%;
-    height:150px;
+    height: 150px;
 }
-.grupo hr{
+
+.grupo hr {
     line-height: 10px;
 }
-.grupo p{
+
+.grupo p {
     font-size: 20px;
 }
-.grupo:hover{
-    color:rgb(104, 10, 57);
+
+.grupo:hover {
+    color: rgb(104, 10, 57);
+    background-color: rgb(243, 243, 243);
 }
-.final{
+
+.final {
     width: 100%;
     background: rgb(0, 0, 0);
     height: max-content;
@@ -109,41 +133,49 @@
     grid-template-columns: 50% 50%;
     justify-content: space-around;
 }
-.enlace{
+
+.enlace {
     height: 30%;
     width: 30%;
     margin: 10px;
 }
-.red{
+
+.red {
     width: 100%;
     height: auto;
 }
-.tool{
+
+.tool {
     color: white;
     font-size: 1fr;
 }
-.cuadro{
+
+.cuadro {
     background: white;
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     padding: 2px 2px 2px 2px;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
 }
-.morade{
+
+.morade {
     background: rgb(0, 0, 0);
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     padding: 2px 2px 2px 2px;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
 }
-.parrafo{
-    color:white;
+
+.parrafo {
+    color: white;
 }
+
 .container {
     position: relative;
     padding: 0px;
     text-align: center;
-} 
+}
+
 .texto-fondo {
     margin: 0px;
     position: absolute;
@@ -156,5 +188,6 @@
     padding: 0px 0px 0px 0px;
     text-align: center;
     border-radius: 20px;
-    border-right: 3px solid rgb(63, 2, 55); border-left: 2px solid rgb(63, 2, 55);
+    border-right: 3px solid rgb(63, 2, 55);
+    border-left: 2px solid rgb(63, 2, 55);
 }

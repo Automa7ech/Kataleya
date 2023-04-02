@@ -1,38 +1,43 @@
-@media(max-width:900px){
-    .static{
-        grid-template-columns:  1fr 1fr 1fr;
+@media(max-width:900px) {
+    .static {
+        grid-template-columns: 1fr 1fr 1fr;
     }
-    h4{
+    h4 {
         max-height: max-content;
-        font-size:medium;
+        font-size: medium;
     }
-    .grupo p{
+    .grupo p {
         font-size: 10px;
     }
-    .cuadro{
+    .cuadro {
         border-radius: 20px;
     }
-    .morade{
+    .morade {
         border-radius: 20px;
-    } 
-    @media(max-width: 600px){
-        .static{
+    }
+    @media(max-width: 600px) {
+        .static {
             flex-direction: column;
             width: 100%;
             grid-template-columns: 1fr 1fr;
-        }  
-        .barra nav{
+        }
+        #fijo h1 {
+            font-size: 35px;
+        }
+        .contenedor h1 {
+            font-size: 35px;
+        }
+        .barra nav {
             font-size: 1fr;
         }
-        h4{
+        h4 {
             font-size: small;
         }
-        .parrafo{
-            font-size: 10px;        
+        .parrafo {
+            font-size: 10px;
         }
-        .barra{
+        .barra {
             width: 95%;
-        }  
-          
+        }
     }
 }
