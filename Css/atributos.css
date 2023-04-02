@@ -23,7 +23,10 @@ aside {
     padding: 10px;
     justify-content: center;
 }
+aside nav{
+    padding: 10px;
 
+}
 aside img {
     height: 200px;
     width: auto;
@@ -33,9 +36,17 @@ aside img {
 aside p {
     font-size: 10px;
 }
+aside a{
+    text-decoration: none;
+    background-color: #ece9e9;
+    color: #000000;
+    padding: 5px;
+    border-style: groove;
+    height: max-content;
+}
 
 aside h2 {
-    margin: 10px;
+    margin: 0px;
     width: 200px;
     text-align: center;
 }
