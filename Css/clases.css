@@ -18,7 +18,7 @@
 /* -------------------------------BAnner----------------------------- */
 
 .imgPrin {
-    background-image: url(../img_base/banner.jpg);
+    background: linear-gradient(to right, rgba(21, 2, 92, 0.507), rgba(83, 0, 0, 0.507)), url(../img_base/banner.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -94,7 +94,7 @@
 }
 
 .grupo img {
-    background-image: url(../img_base/T\ \(2\).png);
+    background: linear-gradient(to right, rgba(7, 7, 7, 0.3), rgb(7, 7, 7, 0.3)), url(../img_base/T\ \(2\).png);
     background-repeat: no-repeat;
     background-size: 100% auto;
     width: 100%;
@@ -182,7 +182,7 @@
     left: 0;
     width: 70%;
     height: 30px;
-    background-color: rgb(41, 1, 25);
+    background: linear-gradient(to right, rgba(7, 7, 7), rgb(100, 0, 47));
     color: rgb(255, 255, 255);
     padding: 0px 0px 0px 0px;
     text-align: center;
