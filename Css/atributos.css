@@ -8,10 +8,7 @@ h1 {
 }
 
 h3 {
-    color: rgb(88, 8, 71);
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: 0px auto 0px 0px;
 }
 
 nav {
@@ -55,11 +52,6 @@ h4 {
 
 p {
     font-size: 17px;
-}
-
-article {
-    display: flex;
-    justify-content: center;
 }
 
 iframe {

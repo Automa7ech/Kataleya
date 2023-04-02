@@ -22,7 +22,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 50rem;
+    height: 30rem;
     top: 0;
 }
 
@@ -56,17 +56,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.coffee {
-    padding: 10px;
-    background-color: rgb(5, 5, 5);
-}
-
-.coffee h2 {
-    max-width: max-content;
-    margin: 0;
-    color: rgb(255, 255, 255);
 }
 
 .static {
@@ -120,6 +109,11 @@
     font-size: 20px;
 }
 
+.grupo h2 {
+    margin: 0px auto;
+    text-align: center;
+}
+
 .grupo:hover {
     color: rgb(104, 10, 57);
     background-color: rgb(243, 243, 243);
@@ -132,6 +126,11 @@
     display: grid;
     grid-template-columns: 50% 50%;
     justify-content: space-around;
+}
+
+.enl-final {
+    display: flex;
+    justify-content: center;
 }
 
 .enlace {
@@ -181,13 +180,30 @@
     position: absolute;
     bottom: 10px;
     left: 0;
-    width: 100%;
+    width: 70%;
     height: 30px;
-    background-color: rgba(0, 0, 0, 0.2);
-    color: rgb(0, 0, 0);
+    background-color: rgb(41, 1, 25);
+    color: rgb(255, 255, 255);
     padding: 0px 0px 0px 0px;
     text-align: center;
-    border-radius: 20px;
-    border-right: 3px solid rgb(63, 2, 55);
-    border-left: 2px solid rgb(63, 2, 55);
+}
+
+
+/* barra flotante */
+
+.navbar {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    padding: 5px 10px;
+    justify-content: space-between;
+}
+
+.navbar h2 {
+    margin: auto;
+    color: white;
+}
+
+.navbar a {
+    margin: auto;
 }
