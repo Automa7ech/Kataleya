@@ -91,10 +91,13 @@
     font-size: 125%;
     border-style: outset;
     border-bottom-left-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .grupo img {
-    background: linear-gradient(to right, rgba(7, 7, 7, 0.3), rgb(7, 7, 7, 0.3)), url(../img_base/T\ \(2\).png);
+    background-image: url(../img_base/T\ \(2\).png);
     background-repeat: no-repeat;
     background-size: 100% auto;
     width: 100%;
@@ -113,11 +116,15 @@
     margin: 0px auto;
     text-align: center;
 }
-
-.grupo:hover {
-    color: rgb(104, 10, 57);
-    background-color: rgb(243, 243, 243);
+.grupo a{
+    text-decoration: none;
+    background-color: #ece9e9;
+    color: #000000;
+    padding: 5px;
+    border-style: groove;
 }
+
+
 
 .final {
     width: 100%;
