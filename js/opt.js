@@ -7,7 +7,7 @@
             miImagen[i].addEventListener('load', function() {
                 miImagen[i].style.height = 'auto';
             });
-            if(i==5){
+            if(i==0){
                 setTimeout(function(){
                 window.location.reload();
             },5000);
