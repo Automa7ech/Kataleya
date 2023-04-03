@@ -10,7 +10,7 @@
             if(i==0){
                 setTimeout(function(){
                 window.location.reload();
-            },1000);
+            },5000);
             }
         }
     
