@@ -7,19 +7,13 @@
             miImagen[i].addEventListener('load', function() {
                 miImagen[i].style.height = 'auto';
             });
-        }
-    
-    var yaCargada = flase;
-
-        if(!yaCargada){
-            setTimeout(function(){
+            if(i==5){
+                setTimeout(function(){
                 window.location.reload();
             },5000);
-            yaCargada=true;
             }
-        
+        }
     
-
 
     });
 
