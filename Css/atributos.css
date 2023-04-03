@@ -15,42 +15,6 @@ nav {
     display: flex;
     /* justify-content: space-around;  */
 }
-
-aside {
-    width: max-content;
-    margin: 10px 10px 10px 10px;
-    border-style: outset;
-    padding: 10px;
-    justify-content: center;
-}
-aside nav{
-    padding: 10px;
-
-}
-aside img {
-    height: 200px;
-    width: auto;
-    justify-content: center;
-}
-
-aside p {
-    font-size: 10px;
-}
-aside a{
-    text-decoration: none;
-    background-color: #ece9e9;
-    color: #000000;
-    padding: 5px;
-    border-style: groove;
-    height: max-content;
-}
-
-aside h2 {
-    margin: 0px;
-    width: 200px;
-    text-align: center;
-}
-
 h4 {
     margin-top: 10px;
     height: 20px;
