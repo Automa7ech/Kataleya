@@ -2,17 +2,19 @@
     'use strict';
     document.addEventListener('DOMContentLoaded', function() {
 
-        var miImagen = document.querySelector('.grupo img');
-            miImagen.addEventListener('load', function() {
-                miImagen.style.height = 'auto';
+        var miImagen = document.querySelectorAll('.grupo img');
+        for (let i = 0; i < miImagen.length; i++) {
+            miImagen[i].addEventListener('load', function() {
+                miImagen[i].style.height = 'auto';
             });
-            if(miImagen.style.height === 'auto'){
-                setTimeout(function(){
+        }
+    
+            setTimeout(function(){
                 window.location.reload();
-            },1000);
-            }
+            },5000);
         
     
+
 
     });
 
