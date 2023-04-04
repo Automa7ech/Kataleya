@@ -218,3 +218,19 @@
 .navbar a {
     margin: auto;
 }
+.transfer{
+    background-color: #000000;
+    text-align: center;
+}
+.transfer a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.transfer h2{
+    margin: auto;
+}
+.transfer img{
+    margin: auto;
+}
