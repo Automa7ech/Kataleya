@@ -16,7 +16,7 @@
 
 .abs {
     position:fixed;
-  padding: 10px;
+  padding-top: 30px;
   display: flex;
   justify-content: left;
   z-index: 3;
