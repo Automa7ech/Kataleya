@@ -19,12 +19,12 @@
         <button class="cinco" onclick="accion()">
             <img src="img_base/menu.png" alt="Menu">
         </button>
-        <a href="#nav1" class="nav-enlace desaparece">Ofertas Especiales</a>
-        <a href="#nav2" class="nav-enlace desaparece">Ubicacion</a>
-        <a href="#nav3" class="nav-enlace desaparece">Bebidas con Cafe</a>
-        <a href="#nav4" class="nav-enlace desaparece">Bebidas Frias</a>
-        <a href="#nav5" class="nav-enlace desaparece">Sandwiches y Snack</a>
-        <a href="#nav6" class="nav-enlace desaparece">Bebidas y Confituras</a>
+        <a href="#nav1" onclick="accion()" class="nav-enlace desaparece">Ofertas Especiales</a>
+        <a href="#nav2" onclick="accion()" class="nav-enlace desaparece">Ubicacion</a>
+        <a href="#nav3" onclick="accion()" class="nav-enlace desaparece">Bebidas con Cafe</a>
+        <a href="#nav4" onclick="accion()" class="nav-enlace desaparece">Bebidas Frias</a>
+        <a href="#nav5" onclick="accion()" class="nav-enlace desaparece">Sandwiches y Snack</a>
+        <a href="#nav6" onclick="accion()" class="nav-enlace desaparece">Bebidas y Confituras</a>
 
     </nav>
     <header class="imgPrin" loading="eager">
@@ -51,14 +51,14 @@
     <hr>
 
     <aside>
-        <nav id="nav1" class="navbar">
+        <nav class="navbar">
             <h2>Ofertas Especiales</h2>
         </nav>
 
         <div class="deslizar">
             <img class="right" loading="eager" src="img_base/right.png" alt="Deslizar">
             <img class="left" loading="eager" src="img_base/left.png" alt="Deslizar">
-            <div class="grupo">
+            <div id="nav1" class="grupo">
                 <h4>Panquecito</h4>
                 <img loading="lazy" src="img_drink/Panquesito.jpg" alt="Panquesito">
                 <!-- <div class="container">
@@ -102,10 +102,10 @@
     <hr>
     <!-- Bebidas con cafe -->
     <aside>
-        <nav id="nav2" class="navbar">
+        <nav class="navbar">
             <h2>Ubicacion</h2>
         </nav>
-        <div id="mapa">
+        <div  id="nav2" id="mapa">
             <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1CyZgCgNmavaUARuzVBKGOqPFZxulOZw&ehbc=2E312F"
                 width="640" height="480"></iframe>
         </div>
@@ -113,10 +113,10 @@
     <hr>
 
     <article>
-        <nav id="nav3" class="navbar">
+        <nav class="navbar">
             <h2>Bebidas con Cafe</h2>
         </nav>
-        <section class="static">
+        <section  id="nav3" class="static">
             <div class="grupo">
                 <h4>Cafe Expresso</h4>
                 <img loading="lazy" src="img_drink/expresso.jpg" alt="Cafe">
@@ -239,10 +239,10 @@
     <hr>
     <article>
         <!-- Bebidas Frias -->
-        <nav id="nav4" class="navbar">
+        <nav class="navbar">
             <h2>Bebidas Frias</h2>
         </nav>
-        <section class="static">
+        <section id="nav4" class="static">
             <div class="grupo">
                 <h4>Suero</h4>
                 <img loading="lazy" src="img_drink/Fresa.jpg" alt="Suero">
@@ -378,10 +378,10 @@
     <hr>
     <article>
         <!-- Snack -->
-        <nav id="nav5" class="navbar">
+        <nav class="navbar">
             <h2>Sandwiches y snacks</h2>
         </nav>
-        <section class="static">
+        <section id="nav5" class="static">
             <div class="grupo">
                 <h4>Gelatina</h4>
                 <img loading="lazy" src="img_drink/Gelatina.jpg" alt="Gelatina">
@@ -518,10 +518,10 @@
     <hr>
     <!-- Bebidas y confituras -->
     <article>
-        <nav id="nav6"class="navbar">
+        <nav class="navbar">
             <h2>Bebidas y Confituras</h2>
         </nav>
-        <section class="static">
+        <section id="nav6" class="static">
             <div class="grupo">
                 <h4>Pomo de agua</h4>
                 <img loading="lazy" src="img_drink/PomoAgua.jpg" alt="Pomo con agua">
