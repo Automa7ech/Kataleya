@@ -21,6 +21,8 @@
   justify-content: left;
   z-index: 3;
   width: 40px;
+        flex-direction: column; 
+
 }
 .textura {
     background: rgb( 255, 255, 255, 0.7);
@@ -37,27 +39,21 @@
     text-align: center;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
+        margin: 10px 10px;
+
 }
 .cinco{
     background: rgb(0, 0, 0);
     color: white;
     border: none;
     display: none;
+    display: inline-block;
+
 }
-@media(max-width: 600px){
-    .abs{   
-        flex-direction: column; 
-    }
-    .cinco{
-        display: inline-block;
-    }
-    .nav-enlace{
-        margin: 10px 10px;
-    }
-    .desaparece{
-        display: none;
-    }
+.desaparece{
+  display: none;
 }
+
 /* -------------------------------BAnner----------------------------- */
 
 .imgPrin {
