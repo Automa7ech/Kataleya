@@ -5,11 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cigarros</title>
-    <link rel="stylesheet" href="../Css/clases.css">
-    <link rel="stylesheet" href="../Css/media.css">
-    <link rel="stylesheet" href="../Css/atributos.css">
+    <link rel="stylesheet" href="../Css/styles.css">
     <style>
-        .deslizar{
+        .img-of{
+            display: flex;
             overflow-x: auto;
         }
         @media(max-width:600px){
@@ -20,21 +19,18 @@
     </style>
 </head>
 <body>
-    <div class="grupo" style="width:600px; margin:10px auto;">
-        <h2>Cigarros</h2>
-        <div class="deslizar">
+    <div class="card-product">
+        <div class="img-of">
             <img style="width:300px;" loading="lazy" src="../img_drink/RothmansAzul.jpg" alt="Rothmans Azul">
             <img style="width:300px;" loading="lazy" src="../img_drink/RothmansRojo.jpg" alt="RothmansRojo">
             <img style="width:300px;" loading="lazy" src="../img_drink/Hupmans SF.jpg" alt="H-Upman sin Filtro">
-            <img style="width:300px;" loading="lazy" src="../img_drink/PopularRojo.jpg" alt="Popular Rojo">        
+            <img style="width:300px;" loading="lazy" src="../img_drink/PopularRojo.jpg" alt="Popular Rojo"> 
+
         </div>
-        <hr>
-        <h2>$200</h2>
-        <hr>
+        <div class="content-card-product">
+            <h3>Cigarros</h3>
+        </div>
         <p>Compra ya! CIGARRILLO ROTHMANS ROJO CIGARRO X 10 $</p>
     </div>
-
 </body>
-<script defer src="../js/opt.js"></script>
-
 </html>
