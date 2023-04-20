@@ -1,1122 +1,1138 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Kataleya</title>
+    <link rel="stylesheet" href="Css/styles.css" />
+  </head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Cafe Kataleya</title>
-	<link rel="stylesheet" href="Css/styles.css" />
-</head>
+  <body>
+    <nav class="abs">
+      <a href="Cafe.html" onclick="accion()" class="nav-enlace desaparece"
+        ><b>Pagina Principal</b></a
+      >
+      <a onclick="rando()" class="nav-enlace desaparece">Bebida al azar</a>
+      <a href="#nav1" onclick="accion()" class="nav-enlace desaparece"
+        >Ofertas Especiales</a
+      >
+      <a href="#nav2" onclick="accion()" class="nav-enlace desaparece"
+        >Bebidas con Cafe</a
+      >
+      <a href="#nav3" onclick="accion()" class="nav-enlace desaparece"
+        >Bebidas Frias</a
+      >
+      <a href="#nav4" onclick="accion()" class="nav-enlace desaparece"
+        >Sandwiches y Snack</a
+      >
+      <a href="#nav5" onclick="accion()" class="nav-enlace desaparece"
+        >Productos Importados</a
+      >
+      <a
+        href="html/Ubicacion.html"
+        onclick="accion()"
+        class="nav-enlace desaparece"
+        >Ubicacion</a
+      >
+      <a href="#finish" onclick="accion()" class="nav-enlace desaparece"
+        >Pie de Pagina</a
+      >
+    </nav>
+    <header>
+      <div class="container-navbar">
+        <nav class="navbar container">
+          <ul class="menu">
+            <li><a href="Cafe.html">Inicio</a></li>
+            <li>
+              <a target="_blank" href="https://wa.me/5355697795">Whatsapp</a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.facebook.com/profile.php?id=100090995389550&mibextid=ZbWKwL"
+                >Facebook</a
+              >
+            </li>
+            <li><a target="_blank" href="#">Instagram</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-<body>
-	<nav class="abs">
-		<a href="Cafe.html" onclick="accion()" class="nav-enlace desaparece"><b>Pagina Principal</b></a>
-		<a href="#nav1" onclick="accion()" class="nav-enlace desaparece">Ofertas Especiales</a>
-		<a href="#nav2" onclick="accion()" class="nav-enlace desaparece">Bebidas con Cafe</a>
-		<a href="#nav3" onclick="accion()" class="nav-enlace desaparece">Bebidas Frias</a>
-		<a href="#nav4" onclick="accion()" class="nav-enlace desaparece">Sandwiches y Snack</a>
-		<a href="#nav5" onclick="accion()" class="nav-enlace desaparece">Productos Importados</a>
-		<a href="html/Ubicacion.html" onclick="accion()" class="nav-enlace desaparece">Ubicacion</a>
-		<a href="#finish" onclick="accion()" class="nav-enlace desaparece">Pie de Pagina</a>
-	</nav>
-	<header>
-		<div class="container-navbar">
-			<nav class="navbar container">
-				<ul class="menu">
-					<li><a href="Cafe.html">Inicio</a></li>
-					<li><a target="_blank" href="https://wa.me/5355697795">Whatsapp</a></li>
-					<li><a target="_blank"
-							href="https://www.facebook.com/profile.php?id=100090995389550&mibextid=ZbWKwL">Facebook</a>
-					</li>
-					<li><a target="_blank" href="#">Instagram</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
+    <section class="banner">
+      <div class="content-banner">
+        <h2>
+          Nuestro cafe es la gasolina<br />
+          que necesitas para tu dia universitario
+        </h2>
+        <a href="#">Comprar ahora</a>
+      </div>
+    </section>
 
-	<section class="banner">
-		<div class="content-banner">
-			<h2>Nuestro cafe es la gasolina<br /> que necesitas para tu dia universitario</h2>
-			<a href="#">Comprar ahora</a>
-		</div>
-	</section>
+    <main class="main-content">
+      <section class="container container-features">
+        <div class="card-feature">
+          <i class="fa-solid fa-plane-up"></i>
+          <div class="feature-content">
+            <span>Rapidez en el servicio</span>
+          </div>
+        </div>
+        <div class="card-feature">
+          <i class="fa-solid fa-wallet"></i>
+          <div class="feature-content">
+            <span>Pago por transferencia</span>
+          </div>
+        </div>
+        <div class="card-feature">
+          <i class="fa-solid fa-gift"></i>
+          <div class="feature-content">
+            <span>Ofertas especiales</span>
+          </div>
+        </div>
+        <div class="card-feature">
+          <i class="fa-solid fa-headset"></i>
+          <div class="feature-content">
+            <span>Servicio de 9am a 12am</span>
+          </div>
+        </div>
+      </section>
 
-	<main class="main-content">
-		<section class="container container-features">
-			<div class="card-feature">
-				<i class="fa-solid fa-plane-up"></i>
-				<div class="feature-content">
-					<span>Rapidez en el servicio</span>
-				</div>
-			</div>
-			<div class="card-feature">
-				<i class="fa-solid fa-wallet"></i>
-				<div class="feature-content">
-					<span>Pago por transferencia</span>
-				</div>
-			</div>
-			<div class="card-feature">
-				<i class="fa-solid fa-gift"></i>
-				<div class="feature-content">
-					<span>Ofertas especiales</span>
-				</div>
-			</div>
-			<div class="card-feature">
-				<i class="fa-solid fa-headset"></i>
-				<div class="feature-content">
-					<span>Servicio de 9am a 12am</span>
-				</div>
-			</div>
-		</section>
+      <hr />
+      <section class="container top-products">
+        <nav class="navbar">
+          <button class="cinco" onclick="accion()">
+            <img src="img_base/menu.png" alt="Menu" />
+          </button>
+          <h2 class="heading-1">Ofertas Especiales</h2>
+        </nav>
+        <div id="nav1" class="container-products">
+          <!-- Producto 1 -->
+          <div class="card-product">
+            <div class="container-img">
+              <img src="img_drink/Naranjada.jpg" alt="Cafe Irish" />
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Naranjada</h3>
+              <span class="add-cart">
+                <a href="html/Naranjada.html?nombre=7"><b>Info</b></a>
+              </span>
+              <p class="price">$100.00</p>
+            </div>
+          </div>
+          <!-- Producto 2 -->
+          <div class="card-product">
+            <div class="container-img">
+              <img src="img_drink/Pitufo.jpg" alt="Cafe incafe-ingles.jpg" />
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h3>Limonada Pitufo</h3>
+              <span class="add-cart">
+                <a href="html/Pitufo.html?nombre=17"><b>Info</b></a>
+              </span>
+              <p class="price">$80.00</p>
+            </div>
+          </div>
+          <!--  -->
+          <div class="card-product">
+            <div class="container-img">
+              <img src="img_drink/PinaBlue.jpg" alt="Cafe Australiano" />
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Piña Blue</h3>
+              <span class="add-cart">
+                <a href="html/PinaBlue.html?nombre=5"><b>Info</b></a>
+              </span>
+              <p class="price">$150.00</p>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </section>
+      <hr />
+      <section class="gallery">
+        <img
+          src="img_base/gallery1.jpg"
+          loanding="eager"
+          alt="Gallery Img1"
+          class="gallery-img-1"
+        /><img
+          src="img_base/gallery2.jpg"
+          alt="Gallery Img2"
+          loanding="eager"
+          class="gallery-img-2"
+        /><img
+          loanding="eager"
+          src="img_base/gallery3.jpg"
+          alt="Gallery Img3"
+          class="gallery-img-3"
+        /><img
+          src="img_base/gallery4.jpg"
+          loanding="eager"
+          alt="Gallery Img4"
+          class="gallery-img-4"
+        /><img
+          src="img_base/gallery5.jpg"
+          loanding="eager"
+          alt="Gallery Img5"
+          class="gallery-img-5"
+        />
+      </section>
+      <hr />
+      <section class="container specials">
+        <nav class="navbar">
+          <button class="cinco" onclick="accion()">
+            <img src="img_base/menu.png" alt="Menu" />
+          </button>
+          <h2 class="heading-1">Bebidas con Cafe</h2>
+        </nav>
+        <div class="container-products">
+          <!-- Producto 1 -->
+          <div id="nav2" class="card-product">
+            <div class="container-img">
+              <!-- <img src="img_drink/expresso.jpg" alt="Cafe Irish" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Cafe Expresso</h3>
+              <span class="add-cart">
+                <a href="html/expresso.html?nombre=1">
+                  <b>Info</b>
+                </a>
+              </span>
+              <p class="price">$35.00</p>
+            </div>
+          </div>
+          <!-- Producto 2 -->
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-ingles.jpg" alt="Cafe incafe-ingles.jpg" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h3>Cafe Cortadito</h3>
+              <span class="add-cart">
+                <a href="html/Cortado.html?nombre=12"><b>Info</b></a>
+              </span>
+              <p class="price">$50.00</p>
+            </div>
+          </div>
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-ingles.jpg" alt="Cafe incafe-ingles.jpg" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Cafe Bombom</h3>
+              <span class="add-cart">
+                <a href="html/Bombom.html?nombre=15"><b>Info</b></a>
+              </span>
+              <p class="price">$60.00</p>
+            </div>
+          </div>
+          <!--  -->
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-viena.jpg" alt="Cafe Viena" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h3>Cafe Ruso</h3>
+              <span class="add-cart">
+                <a href="html/Ruso.html?nombre=4"><b>Info</b></a>
+              </span>
+              <p class="price">$70.00</p>
+            </div>
+          </div>
+          <!--  -->
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Cafe Cappuccino</h3>
+              <span class="add-cart">
+                <a href="html/Capuccino.html?nombre=16"><b>Info</b></a>
+              </span>
+              <p class="price">$80.00</p>
+            </div>
+          </div>
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Cafe Moca</h3>
+              <span class="add-cart">
+                <a href="html/Moka.html?nombre=9"><b>Info</b></a>
+              </span>
+              <p class="price">$80.00</p>
+            </div>
+          </div>
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Cafe Moniek</h3>
+              <span class="add-cart">
+                <a href="html/Monike.html?nombre=8"><b>Info</b></a>
+              </span>
+              <p class="price">$40.00</p>
+            </div>
+          </div>
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Cafe Frapuchino</h3>
+              <span class="add-cart">
+                <a href="html/Frapuccino.html?nombre=19"><b>Info</b></a>
+              </span>
+              <p class="price">$80.00</p>
+            </div>
+          </div>
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Cubache</h3>
+              <span class="add-cart">
+                <a href="html/Cubache.html?nombre=11"><b>Info</b></a>
+              </span>
+              <p class="price">$100.00</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section class="container specials">
+        <nav class="navbar">
+          <button class="cinco" onclick="accion()">
+            <img src="img_base/menu.png" alt="Menu" />
+          </button>
+          <h2 class="heading-1">Bebidas Frias</h2>
+        </nav>
+        <div id="nav3" class="container-products">
+          <!-- Producto 1 -->
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img_drink/expresso.jpg" alt="Cafe Irish" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h3>Suero</h3>
+              <span class="add-cart">
+                <a href="html/Suero.html?nombre=3"><b>Info</b></a>
+              </span>
+              <p class="price">$150.00</p>
+            </div>
+          </div>
+          <!-- Producto 2 -->
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-ingles.jpg" alt="Cafe incafe-ingles.jpg" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h3>Frappe</h3>
+              <span class="add-cart">
+                <a href="html/Frappe.html?nombre=10"><b>Info</b></a>
+              </span>
+              <p class="price">$50.00</p>
+            </div>
+          </div>
+          <!--  -->
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-viena.jpg" alt="Cafe Viena" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>ChocoMani</h3>
+              <span class="add-cart">
+                <a href="html/Chocomani.html?nombre=13"><b>Info</b></a>
+              </span>
+              <p class="price">$120.00</p>
+            </div>
+          </div>
+          <!--  -->
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Naranjada</h3>
+              <span class="add-cart">
+                <a href="html/Naranjada.html?nombre=7"><b>Info</b></a>
+              </span>
+              <p class="price">$100.00</p>
+            </div>
+          </div>
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Piña Colada</h3>
+              <span class="add-cart">
+                <a href="html/PinaColada.html?nombre=6"><b>Info</b></a>
+              </span>
+              <p class="price">$100.00</p>
+            </div>
+          </div>
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Piña Blue</h3>
+              <span class="add-cart">
+                <a href="html/PinaBlue.html?nombre=5"><b>Info</b></a>
+              </span>
+              <p class="price">$150.00</p>
+            </div>
+          </div>
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Vaca Negra</h3>
+              <span class="add-cart">
+                <a href="html/Vaca Negra.html?nombre=2"><b>Info</b></a>
+              </span>
+              <p class="price">$80.00</p>
+            </div>
+          </div>
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h3>Batidos</h3>
+              <span class="add-cart">
+                <a href="html/Batido.html?nombre=14"><b>Info</b></a>
+              </span>
+              <p class="price">$100.00</p>
+            </div>
+          </div>
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h3>Batido Natural</h3>
+              <span class="add-cart">
+                <a href="html/Mamey.html?nombre=18"><b>Info</b></a>
+              </span>
+              <p class="price">$100.00</p>
+            </div>
+          </div>
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h3>Pitufo</h3>
+              <span class="add-cart">
+                <a href="html/Pitufo.html?nombre=17"><b>Info</b></a>
+              </span>
+              <p class="price">$80.00</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section class="container specials">
+        <nav class="navbar">
+          <button class="cinco" onclick="accion()">
+            <img src="img_base/menu.png" alt="Menu" />
+          </button>
+          <h2 class="heading-1">Sandwiches y snacks</h2>
+        </nav>
+        <div id="nav4" class="container-products">
+          <!-- Producto 1 -->
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img_drink/expresso.jpg" alt="Cafe Irish" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Gelatina</h3>
+              <span class="add-cart">
+                <a href="html/Gelatina.html"><b>Info</b></a>
+              </span>
+              <p class="price">$40.00</p>
+            </div>
+          </div>
+          <!-- Producto 2 -->
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-ingles.jpg" alt="Cafe incafe-ingles.jpg" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h3>Donas</h3>
+              <span class="add-cart">
+                <a href="html/Donas.html"><b>Info</b></a>
+              </span>
+              <p class="price">$80.00</p>
+            </div>
+          </div>
+          <!--  -->
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-viena.jpg" alt="Cafe Viena" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Croquetas al plato</h3>
+              <span class="add-cart">
+                <a href="html/croqueta.html"><b>Info</b></a>
+              </span>
+              <p class="price">$60.00</p>
+            </div>
+          </div>
+          <!--  -->
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h3>Turquino</h3>
+              <span class="add-cart">
+                <a href="html/Turkino.html"><b>Info</b></a>
+              </span>
+              <p class="price">$80.00</p>
+            </div>
+          </div>
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Dulce de Coco</h3>
+              <span class="add-cart">
+                <a href="html/DulceCoco.html"><b>Info</b></a>
+              </span>
+              <p class="price">$60.00</p>
+            </div>
+          </div>
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Tres Gracias</h3>
+              <span class="add-cart">
+                <a href="html/TresGracias.html"><b>Info</b></a>
+              </span>
+              <p class="price">$50.00</p>
+            </div>
+          </div>
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Doble Tentacion</h3>
+              <span class="add-cart">
+                <a href="html/Doble Tentacion.html"><b>Info</b></a>
+              </span>
+              <p class="price">$70.00</p>
+            </div>
+          </div>
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h3>Panquecito</h3>
+              <span class="add-cart">
+                <a href="html/Panquesito.html"><b>Info</b></a>
+              </span>
+              <p class="price">$40.00</p>
+            </div>
+          </div>
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h3>Ensalada</h3>
+              <span class="add-cart">
+                <a href="html/Ensalada.html"><b>Info</b></a>
+              </span>
+              <p class="price">$100.00</p>
+            </div>
+          </div>
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h3>Pan c/ Hamburguesa</h3>
+              <span class="add-cart">
+                <a href="html/Hamburguesa.html"><b>Info</b></a>
+              </span>
+              <p class="price">$100.00</p>
+            </div>
+          </div>
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Pan c/ Tortilla</h3>
+              <span class="add-cart">
+                <a href="html/Tortilla.html"><b>Info</b></a>
+              </span>
+              <p class="price">$60.00</p>
+            </div>
+          </div>
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Panes</h3>
+              <span class="add-cart">
+                <a href="html/CremayMayonesa.html"><b>Info</b></a>
+              </span>
+              <p class="price">$40.00</p>
+            </div>
+          </div>
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h3>Borrachita</h3>
+              <span class="add-cart">
+                <a href="html/Borrachita.html"><b>Info</b></a>
+              </span>
+              <p class="price">$40.00</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section class="container specials">
+        <nav class="navbar">
+          <button class="cinco" onclick="accion()">
+            <img src="img_base/menu.png" alt="Menu" />
+          </button>
+          <h2 class="heading-1">Productos importados</h2>
+        </nav>
+        <div id="nav5" class="container-products">
+          <!-- Producto 1 -->
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img_drink/expresso.jpg" alt="Cafe Irish" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Pomo de agua</h3>
+              <span class="add-cart">
+                <a href="html/PomoAgua.html"><b>Info</b></a>
+              </span>
+              <p class="price">$40.00</p>
+            </div>
+          </div>
+          <!-- Producto 2 -->
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-ingles.jpg" alt="Cafe incafe-ingles.jpg" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h3>Bebidas Energizantes</h3>
+              <span class="add-cart">
+                <a href="html/Energizantes.html"><b>Info</b></a>
+              </span>
+              <p class="price">$200.00</p>
+            </div>
+          </div>
+          <!--  -->
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-viena.jpg" alt="Cafe Viena" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h3>Latas de refresco</h3>
+              <span class="add-cart">
+                <a href="html/TropiCola.html"><b>Info</b></a>
+              </span>
+              <p class="price">$140.00</p>
+            </div>
+          </div>
+          <!--  -->
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Refresco Gaseado de Cola</h3>
+              <span class="add-cart">
+                <a href="html/RefrescoKola.html"><b>Info</b></a>
+              </span>
+              <p class="price">$120.00</p>
+            </div>
+          </div>
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Refresco Limon</h3>
+              <span class="add-cart">
+                <a href="html/RefrescoLimon.html"><b>Info</b></a>
+              </span>
+              <p class="price">$50.00</p>
+            </div>
+          </div>
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h3>Refresco IronBeer</h3>
+              <span class="add-cart">
+                <a href="html/PomoGrande.html"><b>Info</b></a>
+              </span>
+              <p class="price">$400.00</p>
+            </div>
+          </div>
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h3>Chupa Chupa</h3>
+              <span class="add-cart">
+                <a href="html/ChupaChupa.html"><b>Info</b></a>
+              </span>
+              <p class="price">$70.00</p>
+            </div>
+          </div>
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h3>Rothmans Verde</h3>
+              <span class="add-cart">
+                <a href="html/RothmansVerde.html"><b>Info</b></a>
+              </span>
+              <p class="price">$500.00</p>
+            </div>
+          </div>
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Rothmans Rojo</h3>
+              <span class="add-cart">
+                <a href="html/Cigarros.html"><b>Info</b></a>
+              </span>
+              <p class="price">$200.00</p>
+            </div>
+          </div>
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Rothmans Azul</h3>
+              <span class="add-cart">
+                <a href="html/Cigarros.html"><b>Info</b></a>
+              </span>
+              <p class="price">$200.00</p>
+            </div>
+          </div>
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>H-Upman sin Filtro</h3>
+              <span class="add-cart">
+                <a href="html/Cigarros.html"><b>Info</b></a>
+              </span>
+              <p class="price">$200.00</p>
+            </div>
+          </div>
+          <div class="card-product">
+            <div class="container-img">
+              <!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Popular Rojo</h3>
+              <span class="add-cart">
+                <a href="html/Cigarros.html"><b>Info</b></a>
+              </span>
+              <p class="price">$200.00</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+    </main>
 
-		<hr>
-		<section class="container top-products">
-			<nav class="navbar">
-				<button class="cinco" onclick="accion()">
-					<img src="img_base/menu.png" alt="Menu">
-				</button>
-				<h2 class="heading-1">Ofertas Especiales</h2>
-			</nav>
-			<div id="nav1" class="container-products">
-				<!-- Producto 1 -->
-				<div class="card-product">
-					<div class="container-img">
-						<img src="img_drink/Naranjada.jpg" alt="Cafe Irish" />
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-						</div>
-						<h3>Naranjada</h3>
-						<span class="add-cart">
-							<a href="html/Naranjada.html?nombre=7"><b>Info</b></a>
-						</span>
-						<p class="price">$100.00</p>
-					</div>
-				</div>
-				<!-- Producto 2 -->
-				<div class="card-product">
-					<div class="container-img">
-						<img src="img_drink/Pitufo.jpg" alt="Cafe incafe-ingles.jpg" />
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-						</div>
-						<h3>Limonada Pitufo</h3>
-						<span class="add-cart">
-							<a href="html/Pitufo.html?nombre=17"><b>Info</b></a>
-						</span>
-						<p class="price">$80.00</p>
-					</div>
-				</div>
-				<!--  -->
-				<div class="card-product">
-					<div class="container-img">
-						<img src="img_drink/PinaBlue.jpg" alt="Cafe Australiano" />
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-						</div>
-						<h3>Piña Blue</h3>
-						<span class="add-cart">
-							<a href="html/PinaBlue.html?nombre=5"><b>Info</b></a>
-						</span>
-						<p class="price">$150.00</p>
-					</div>
-				</div>
-				<!--  -->
-
-			</div>
-		</section>
-		<hr>
-		<section class="gallery">
-			<img src="img_base/gallery1.jpg" loanding="eager" alt="Gallery Img1" class="gallery-img-1" /><img
-				src="img_base/gallery2.jpg" alt="Gallery Img2" loanding="eager" class="gallery-img-2" /><img
-				loanding="eager" src="img_base/gallery3.jpg" alt="Gallery Img3" class="gallery-img-3" /><img
-				src="img_base/gallery4.jpg" loanding="eager" alt="Gallery Img4" class="gallery-img-4" /><img
-				src="img_base/gallery5.jpg" loanding="eager" alt="Gallery Img5" class="gallery-img-5" />
-		</section>
-		<hr>
-		<section class="container specials">
-			<nav class="navbar">
-				<button class="cinco" onclick="accion()">
-					<img src="img_base/menu.png" alt="Menu">
-				</button>
-				<h2 class="heading-1">Bebidas con Cafe</h2>
-			</nav>
-			<div class="container-products">
-				<!-- Producto 1 -->
-				<div id="nav2" class="card-product">
-					<div class="container-img">
-						<!-- <img src="img_drink/expresso.jpg" alt="Cafe Irish" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-						</div>
-						<h3>Cafe Expresso</h3>
-						<span class="add-cart">
-							<a href="html/expresso.html?nombre=1">
-								<b>Info</b>
-							</a>
-						</span>
-						<p class="price">$35.00</p>
-					</div>
-				</div>
-				<!-- Producto 2 -->
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-ingles.jpg" alt="Cafe incafe-ingles.jpg" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-						</div>
-						<h3>Cafe Cortadito</h3>
-						<span class="add-cart">
-							<a href="html/Cortado.html?nombre=12"><b>Info</b></a>
-						</span>
-						<p class="price">$50.00</p>
-					</div>
-				</div>
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-ingles.jpg" alt="Cafe incafe-ingles.jpg" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-						</div>
-						<h3>Cafe Bombom</h3>
-						<span class="add-cart">
-							<a href="html/Bombom.html?nombre=15"><b>Info</b></a>
-						</span>
-						<p class="price">$60.00</p>
-					</div>
-				</div>
-				<!--  -->
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-viena.jpg" alt="Cafe Viena" /> -->
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-						</div>
-						<h3>Cafe Ruso</h3>
-						<span class="add-cart">
-							<a href="html/Ruso.html?nombre=4"><b>Info</b></a>
-						</span>
-						<p class="price">$70.00</p>
-					</div>
-				</div>
-				<!--  -->
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-						</div>
-						<h3>Cafe Cappuccino</h3>
-						<span class="add-cart">
-							<a href="html/Capuccino.html?nombre=16"><b>Info</b></a>
-						</span>
-						<p class="price">$80.00</p>
-					</div>
-				</div>
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-						</div>
-						<h3>Cafe Moca</h3>
-						<span class="add-cart">
-							<a href="html/Moka.html?nombre=9"><b>Info</b></a>
-						</span>
-						<p class="price">$80.00</p>
-					</div>
-				</div>
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-						</div>
-						<h3>Cafe Moniek</h3>
-						<span class="add-cart">
-							<a href="html/Monike.html?nombre=8"><b>Info</b></a>
-						</span>
-						<p class="price">$40.00</p>
-					</div>
-				</div>
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-						</div>
-						<h3>Cafe Frapuchino</h3>
-						<span class="add-cart">
-							<a href="html/Frapuccino.html?nombre=19"><b>Info</b></a>
-						</span>
-						<p class="price">$80.00</p>
-					</div>
-				</div>
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-						</div>
-						<h3>Cubache</h3>
-						<span class="add-cart">
-							<a href="html/Cubache.html?nombre=11"><b>Info</b></a>
-						</span>
-						<p class="price">$100.00</p>
-					</div>
-				</div>
-			</div>
-		</section>
-		<hr>
-		<section class="container specials">
-			<nav class="navbar">
-				<button class="cinco" onclick="accion()">
-					<img src="img_base/menu.png" alt="Menu">
-				</button>
-				<h2 class="heading-1">Bebidas Frias</h2>
-			</nav>
-			<div id="nav3" class="container-products">
-				<!-- Producto 1 -->
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img_drink/expresso.jpg" alt="Cafe Irish" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-						</div>
-						<h3>Suero</h3>
-						<span class="add-cart">
-							<a href="html/Suero.html?nombre=3"><b>Info</b></a>
-						</span>
-						<p class="price">$150.00</p>
-					</div>
-				</div>
-				<!-- Producto 2 -->
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-ingles.jpg" alt="Cafe incafe-ingles.jpg" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-						</div>
-						<h3>Frappe</h3>
-						<span class="add-cart">
-							<a href="html/Frappe.html?nombre=10"><b>Info</b></a>
-						</span>
-						<p class="price">$50.00</p>
-					</div>
-				</div>
-				<!--  -->
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-viena.jpg" alt="Cafe Viena" /> -->
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-						</div>
-						<h3>ChocoMani</h3>
-						<span class="add-cart">
-							<a href="html/Chocomani.html?nombre=13"><b>Info</b></a>
-						</span>
-						<p class="price">$120.00</p>
-					</div>
-				</div>
-				<!--  -->
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-						</div>
-						<h3>Naranjada</h3>
-						<span class="add-cart">
-							<a href="html/Naranjada.html?nombre=7"><b>Info</b></a>
-						</span>
-						<p class="price">$100.00</p>
-					</div>
-				</div>
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-						</div>
-						<h3>Piña Colada</h3>
-						<span class="add-cart">
-							<a href="html/PinaColada.html?nombre=6"><b>Info</b></a>
-						</span>
-						<p class="price">$100.00</p>
-					</div>
-				</div>
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-						</div>
-						<h3>Piña Blue</h3>
-						<span class="add-cart">
-							<a href="html/PinaBlue.html?nombre=5"><b>Info</b></a>
-						</span>
-						<p class="price">$150.00</p>
-					</div>
-				</div>
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-						</div>
-						<h3>Vaca Negra</h3>
-						<span class="add-cart">
-							<a href="html/Vaca Negra.html?nombre=2"><b>Info</b></a>
-						</span>
-						<p class="price">$80.00</p>
-					</div>
-				</div>
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-						</div>
-						<h3>Batidos</h3>
-						<span class="add-cart">
-							<a href="html/Batido.html?nombre=14"><b>Info</b></a>
-						</span>
-						<p class="price">$100.00</p>
-					</div>
-				</div>
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-						</div>
-						<h3>Batido Natural</h3>
-						<span class="add-cart">
-							<a href="html/Mamey.html?nombre=18"><b>Info</b></a>
-						</span>
-						<p class="price">$100.00</p>
-					</div>
-				</div>
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-						</div>
-						<h3>Pitufo</h3>
-						<span class="add-cart">
-							<a href="html/Pitufo.html?nombre=17"><b>Info</b></a>
-						</span>
-						<p class="price">$80.00</p>
-					</div>
-				</div>
-			</div>
-		</section>
-		<hr>
-		<section class="container specials">
-			<nav class="navbar">
-				<button class="cinco" onclick="accion()">
-					<img src="img_base/menu.png" alt="Menu">
-				</button>
-				<h2 class="heading-1">Sandwiches y snacks</h2>
-			</nav>
-			<div id="nav4" class="container-products">
-				<!-- Producto 1 -->
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img_drink/expresso.jpg" alt="Cafe Irish" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-						</div>
-						<h3>Gelatina</h3>
-						<span class="add-cart">
-							<a href="html/Gelatina.html"><b>Info</b></a>
-						</span>
-						<p class="price">$40.00</p>
-					</div>
-				</div>
-				<!-- Producto 2 -->
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-ingles.jpg" alt="Cafe incafe-ingles.jpg" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-						</div>
-						<h3>Donas</h3>
-						<span class="add-cart">
-							<a href="html/Donas.html"><b>Info</b></a>
-						</span>
-						<p class="price">$80.00</p>
-					</div>
-				</div>
-				<!--  -->
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-viena.jpg" alt="Cafe Viena" /> -->
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-						</div>
-						<h3>Croquetas al plato</h3>
-						<span class="add-cart">
-							<a href="html/croqueta.html"><b>Info</b></a>
-						</span>
-						<p class="price">$60.00</p>
-					</div>
-				</div>
-				<!--  -->
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-						</div>
-						<h3>Turquino</h3>
-						<span class="add-cart">
-							<a href="html/Turkino.html"><b>Info</b></a>
-						</span>
-						<p class="price">$80.00</p>
-					</div>
-				</div>
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-						</div>
-						<h3>Dulce de Coco</h3>
-						<span class="add-cart">
-							<a href="html/DulceCoco.html"><b>Info</b></a>
-						</span>
-						<p class="price">$60.00</p>
-					</div>
-				</div>
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-						</div>
-						<h3>Tres Gracias</h3>
-						<span class="add-cart">
-							<a href="html/TresGracias.html"><b>Info</b></a>
-						</span>
-						<p class="price">$50.00</p>
-					</div>
-				</div>
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-						</div>
-						<h3>Doble Tentacion</h3>
-						<span class="add-cart">
-							<a href="html/Doble Tentacion.html"><b>Info</b></a>
-						</span>
-						<p class="price">$70.00</p>
-					</div>
-				</div>
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-						</div>
-						<h3>Panquecito</h3>
-						<span class="add-cart">
-							<a href="html/Panquesito.html"><b>Info</b></a>
-						</span>
-						<p class="price">$40.00</p>
-					</div>
-				</div>
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-						</div>
-						<h3>Ensalada</h3>
-						<span class="add-cart">
-							<a href="html/Ensalada.html"><b>Info</b></a>
-						</span>
-						<p class="price">$100.00</p>
-					</div>
-				</div>
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-						</div>
-						<h3>Pan c/ Hamburguesa</h3>
-						<span class="add-cart">
-							<a href="html/Hamburguesa.html"><b>Info</b></a>
-						</span>
-						<p class="price">$100.00</p>
-					</div>
-				</div>
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-						</div>
-						<h3>Pan c/ Tortilla</h3>
-						<span class="add-cart">
-							<a href="html/Tortilla.html"><b>Info</b></a>
-						</span>
-						<p class="price">$60.00</p>
-					</div>
-				</div>
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-						</div>
-						<h3>Panes</h3>
-						<span class="add-cart">
-							<a href="html/CremayMayonesa.html"><b>Info</b></a>
-						</span>
-						<p class="price">$40.00</p>
-					</div>
-				</div>
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-						</div>
-						<h3>Borrachita</h3>
-						<span class="add-cart">
-							<a href="html/Borrachita.html"><b>Info</b></a>
-						</span>
-						<p class="price">$40.00</p>
-					</div>
-				</div>
-			</div>
-		</section>
-		<hr>
-		<section class="container specials">
-			<nav class="navbar">
-				<button class="cinco" onclick="accion()">
-					<img src="img_base/menu.png" alt="Menu">
-				</button>
-				<h2 class="heading-1">Productos importados</h2>
-			</nav>
-			<div id="nav5" class="container-products">
-				<!-- Producto 1 -->
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img_drink/expresso.jpg" alt="Cafe Irish" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-						</div>
-						<h3>Pomo de agua</h3>
-						<span class="add-cart">
-							<a href="html/PomoAgua.html"><b>Info</b></a>
-						</span>
-						<p class="price">$40.00</p>
-					</div>
-				</div>
-				<!-- Producto 2 -->
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-ingles.jpg" alt="Cafe incafe-ingles.jpg" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-						</div>
-						<h3>Bebidas Energizantes</h3>
-						<span class="add-cart">
-							<a href="html/Energizantes.html"><b>Info</b></a>
-						</span>
-						<p class="price">$200.00</p>
-					</div>
-				</div>
-				<!--  -->
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-viena.jpg" alt="Cafe Viena" /> -->
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-						</div>
-						<h3>Latas de refresco</h3>
-						<span class="add-cart">
-							<a href="html/TropiCola.html"><b>Info</b></a>
-						</span>
-						<p class="price">$140.00</p>
-					</div>
-				</div>
-				<!--  -->
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-						</div>
-						<h3>Refresco Gaseado de Cola</h3>
-						<span class="add-cart">
-							<a href="html/RefrescoKola.html"><b>Info</b></a>
-						</span>
-						<p class="price">$120.00</p>
-					</div>
-				</div>
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-						</div>
-						<h3>Refresco Limon</h3>
-						<span class="add-cart">
-							<a href="html/RefrescoLimon.html"><b>Info</b></a>
-						</span>
-						<p class="price">$50.00</p>
-					</div>
-				</div>
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-						</div>
-						<h3>Refresco IronBeer</h3>
-						<span class="add-cart">
-							<a href="html/PomoGrande.html"><b>Info</b></a>
-						</span>
-						<p class="price">$400.00</p>
-					</div>
-				</div>
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-						</div>
-						<h3>Chupa Chupa</h3>
-						<span class="add-cart">
-							<a href="html/ChupaChupa.html"><b>Info</b></a>
-						</span>
-						<p class="price">$70.00</p>
-					</div>
-				</div>
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-						</div>
-						<h3>Rothmans Verde</h3>
-						<span class="add-cart">
-							<a href="html/RothmansVerde.html"><b>Info</b></a>
-						</span>
-						<p class="price">$500.00</p>
-					</div>
-				</div>
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-						</div>
-						<h3>Rothmans Rojo</h3>
-						<span class="add-cart">
-							<a href="html/Cigarros.html"><b>Info</b></a>
-						</span>
-						<p class="price">$200.00</p>
-					</div>
-				</div>
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-						</div>
-						<h3>Rothmans Azul</h3>
-						<span class="add-cart">
-							<a href="html/Cigarros.html"><b>Info</b></a>
-						</span>
-						<p class="price">$200.00</p>
-					</div>
-				</div>
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-						</div>
-						<h3>H-Upman sin Filtro</h3>
-						<span class="add-cart">
-							<a href="html/Cigarros.html"><b>Info</b></a>
-						</span>
-						<p class="price">$200.00</p>
-					</div>
-				</div>
-				<div class="card-product">
-					<div class="container-img">
-						<!-- <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" /> -->
-
-					</div>
-					<div class="content-card-product">
-						<div class="stars">
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-solid fa-star"></i>
-							<i class="fa-regular fa-star"></i>
-						</div>
-						<h3>Popular Rojo</h3>
-						<span class="add-cart">
-							<a href="html/Cigarros.html"><b>Info</b></a>
-						</span>
-						<p class="price">$200.00</p>
-					</div>
-				</div>
-
-			</div>
-		</section>
-		<hr>
-	</main>
-
-	<footer id="finish" class="footer">
-		<div class="container container-footer">
-			<div class="menu-footer">
-				<div class="contact-info">
-					<p class="title-footer">AutomaTech</p>
-					<div class="social-icons">
-						<span class="facebook">
-							<a target="_blank" href="https://www.facebook.com/profile.php?id=100090664016070&sk=about"
-								class="fa-brands fa-facebook-f"></a>
-						</span>
-						<span class="whatsapp">
-							<a target="_blank" href="https://wa.me/5352489105" class="fa-brands fa-whatsapp"></a>
-						</span>
-						<span class="instagram">
-							<a target="_blank" href="#" class="fa-brands fa-instagram"></a>
-						</span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-
-	<script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
-	<script defer src="js/ext.js"></script>
-</body>
-
+    <footer id="finish" class="footer">
+      <div class="container container-footer">
+        <div class="menu-footer">
+          <div class="contact-info">
+            <p class="title-footer">AutomaTech</p>
+            <div class="social-icons">
+              <span class="facebook">
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/profile.php?id=100090664016070&sk=about"
+                  class="fa-brands fa-facebook-f"
+                ></a>
+              </span>
+              <span class="whatsapp">
+                <a
+                  target="_blank"
+                  href="https://wa.me/5352489105"
+                  class="fa-brands fa-whatsapp"
+                ></a>
+              </span>
+              <span class="instagram">
+                <a target="_blank" href="#" class="fa-brands fa-instagram"></a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/81581fb069.js"
+    crossorigin="anonymous"
+  ></script>
+  <script defer src="js/ext.js"></script>
+  <script defer src="../js/opt.js"></script>
 </html>
