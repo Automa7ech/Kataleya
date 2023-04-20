@@ -8,6 +8,16 @@ function accion() {
 }
 (function () {
   "use strict";
-  document.addEventListener("DOMContentLoaded", function () {
+  document.addEventListener("DOMContentLoaded", function () { 
+    const urlParams = new URLSearchParams(window.location.search);
+    const nombre = urlParams.get('nombre');
+    console.log(nombre);
+
+    if(nombre == 1234){
+      console.log("pinga");
+    }else{
+      console.log("nop");
+    }
+    
   });
 })();
