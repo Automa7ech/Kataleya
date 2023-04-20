@@ -44,7 +44,7 @@ function rando() {
                 window.location.replace("../html/Cortado.html?nombre=12");
                 break;
             case 13:
-                window.location.replace("../html/ChocoMani.html?nombre=13");
+                window.location.replace("../html/Chocomani.html?nombre=13");
                 break;
             case 14:
                 window.location.replace("../html/Batido.html?nombre=14");
