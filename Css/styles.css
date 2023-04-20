@@ -1114,3 +1114,45 @@ iframe {
 .desaparece {
   display: none;
 }
+.centro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: 3px solid var(--primary-color);
+}
+.azar{
+  width: 50vw;
+  border-color: 3px solid var(--primary-color);
+  border:none;
+  margin: 30px;
+  padding: 20px auto;
+  border-radius: 50px;
+}
+.azar h3{
+  font-variant: small-caps;
+  background: conic-gradient(
+    #89ff93 0 25%,
+    #f4ff96 25% 50%,
+    #ff7474 50% 75%,
+    #a1148a 75%
+  );
+  background-size: 200% 200%;
+  animation: animate 4.3s ease-in-out infinite;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+@keyframes animate{
+  25%{
+    background-position: 0 100%;
+  }
+  50%{
+    background-position: 100 100%;
+  }
+  75%{
+    background-position: 100 0;
+  }
+  100%{
+    background-position: 0 0;
+  }
+}
