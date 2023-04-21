@@ -47,14 +47,21 @@
 .typing {
   overflow: hidden;
   white-space: nowrap;
-  border-right: 1px solid black;
+  border-right: 2px solid white;
   padding-right: 5px;
-  animation: typin 8s steps(90) infinite alternate, blink 3s infinite;
+  animation: typin 5s infinite alternate, blink 0.7s infinite;
 }
 @keyframes typin {
   0% {
     width: 0%;
     visibility: hidden;
+  }
+  10% {
+    width: 0%;
+    visibility: hidden;
+  }
+  70%{
+    width: 100%;
   }
   100% {
     width: 100%;
@@ -65,7 +72,7 @@
     border-color: transparent;
   }
   100% {
-    border-color: black;
+    border-color: white;
   }
 }
 
