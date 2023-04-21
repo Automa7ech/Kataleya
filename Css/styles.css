@@ -33,8 +33,6 @@ section {
   font-size: 3rem;
 }
 
-
-
 /* ************* NAVBAR ************* */
 .navbar {
   display: flex;
@@ -90,11 +88,7 @@ section {
 /*               BANNER               */
 /* ********************************** */
 .banner {
-  background: linear-gradient(
-      to bottom,
-      rgb(0, 0, 0),
-      rgba(83, 0, 0, 0)
-    ),
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(83, 0, 0, 0)),
     url(../img_base/banner1.jpg);
   height: 70rem;
   background-size: cover;
@@ -132,7 +126,6 @@ section {
   text-transform: uppercase;
   border-radius: 3rem;
 }
-
 
 /* ********************************** */
 /*              FEATURES              */
@@ -331,8 +324,7 @@ section {
 
 .footer {
   background-color: var(--dark-color);
-  padding: 3rem ;
-
+  padding: 3rem;
 }
 
 .title-footer {
@@ -342,11 +334,10 @@ section {
   color: var(--background-color);
 }
 
-.contact-info{
+.contact-info {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-
 }
 
 .social-icons {
@@ -359,17 +350,16 @@ section {
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .social-icons span a {
   color: #fff;
   font-size: 1.2rem;
-  width: max-content;
-  height: max-content;
-
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .facebook {
@@ -399,7 +389,6 @@ section {
     #fcaf45
   );
 }
-
 
 /* ********************************** */
 /*       MEDIA QUERIES -- 768px       */
@@ -566,12 +555,12 @@ iframe {
 .desaparece {
   display: none;
 }
-.centro{
+.centro {
   display: flex;
   justify-content: center;
   align-items: center;
   border-color: 3px solid var(--primary-color);
 }
-#mapa{
+#mapa {
   height: 500px;
 }
