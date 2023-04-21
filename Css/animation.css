@@ -1,0 +1,140 @@
+/*******************************************/
+/* Efcto de cambio de color en kas letras  */
+/*******************************************/
+.azar {
+  width: 50vw;
+  border-color: 3px solid var(--primary-color);
+  border: none;
+  margin: 30px;
+  padding: 20px auto;
+  border-radius: 50px;
+}
+.azar h3 {
+  font-variant: small-caps;
+  background: conic-gradient(
+    #89ff93 0 25%,
+    #f4ff96 25% 50%,
+    #ff7474 50% 75%,
+    #a1148a 75%
+  );
+  background-size: 200% 200%;
+  animation: animate 4.3s ease-in-out infinite;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+@keyframes animate {
+  25% {
+    background-position: 0 100%;
+  }
+  50% {
+    background-position: 100 100%;
+  }
+  75% {
+    background-position: 100 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+/******************************/
+/* Efecto maquina de escribir */
+/******************************/
+.wrap {
+  width: max-content;
+}
+.typing {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 1px solid black;
+  padding-right: 5px;
+  animation: typin 8s steps(90) infinite alternate, blink 3s infinite;
+}
+@keyframes typin {
+  0% {
+    width: 0%;
+    visibility: hidden;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+  100% {
+    border-color: black;
+  }
+}
+
+/***************/
+/* Efecto olas */
+/***************/
+.wave {
+  position: absolute;
+  width: 100%;
+  height: 143px;
+  bottom: 0;
+  left: 0;
+  background-image: url(../img_base/wave.png);
+  animation: waver 10s linear infinite;
+}
+.wave::before {
+  content: "";
+  width: 100%;
+  height: 143px;
+  background-image: url(../img_base/wave.png);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0.4;
+  animation: waver-reverse 10s linear infinite;
+}
+.wave::after {
+  content: "";
+  width: 100%;
+  height: 143px;
+  background-image: url(../img_base/wave.png);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0.7;
+  animation-delay: -5s;
+  animation: waver 10s linear infinite;
+}
+@media (max-width: 500px) {
+  .wave {
+    background-image: url(../img_base/wave1.png);
+    height: 72px;
+    animation: waver 30s linear infinite;
+  }
+  .wave::before {
+    background-image: url(../img_base/wave1.png);
+    height: 72px;
+    animation: waver-reverse 40s linear infinite;
+  }
+  .wave::after {
+    background-image: url(../img_base/wave1.png);
+    height: 72px;
+    animation: waver 50s linear infinite;
+  }
+}
+@keyframes waver {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 1360px;
+  }
+}
+@keyframes waver-reverse {
+  0% {
+    background-position: 1360px;
+  }
+  100% {
+    background-position: 0;
+  }
+}
+
