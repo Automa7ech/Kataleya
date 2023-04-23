@@ -525,7 +525,6 @@ iframe {
   display: flex;
   justify-content: left;
   z-index: 3;
-  width: 40px;
   flex-direction: column;
 }
 .textura {
