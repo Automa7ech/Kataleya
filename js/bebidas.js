@@ -451,7 +451,7 @@ const product_pi = [
         title: 'Latas de refresco',
         link: 'html/TropiCola.html',
         star: 5,
-        price: 140,
+        price: 150,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
