@@ -27,6 +27,15 @@ const product_esp = [
         price: 150,
         text: `<i class="fa-solid fa-star"></i>`,
     },
+{
+        id: 3,
+        image: "img_drink/mousse.jpg",
+        title: 'Muss de Café',
+        link: 'html/mousse.html?nombre=5',
+        star: 5,
+        price: 100,
+        text: `<i class="fa-solid fa-star"></i>`,
+    },
 
 ];
 
@@ -379,6 +388,15 @@ const product_ss = [
         link: 'html/Borrachita.html',
         star: 5,
         price: 40,
+        text: `<i class="fa-solid fa-star"></i>`,
+    },
+    {
+        id: 13,
+        image: "img_drink/mousse.jpg",
+        title: 'Muss de Café',
+        link: 'html/mousse.html?nombre=5',
+        star: 5,
+        price: 100,
         text: `<i class="fa-solid fa-star"></i>`,
     },
 ];
