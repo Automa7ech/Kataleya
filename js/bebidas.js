@@ -545,7 +545,7 @@ const product_pi = [
     {
         id: 14,
         title: 'Galletas',
-        link: 'html/galletas.html',
+        link: 'html/galletas60.html',
         star: 4,
         price: 60,
         text: `<i class="fa-solid fa-star"></i>`,
@@ -553,7 +553,7 @@ const product_pi = [
     {
         id: 15,
         title: 'Galletas',
-        link: 'html/galletas.html',
+        link: 'html/galletas100.html',
         star: 5,
         price: 100,
         text: `<i class="fa-solid fa-star"></i>`,
