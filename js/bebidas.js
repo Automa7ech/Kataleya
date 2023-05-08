@@ -526,6 +526,38 @@ const product_pi = [
         price: 200,
         text: `<i class="fa-solid fa-star"></i>`,
     },
+    {
+        id: 12,
+        title: 'Dino Paletas',
+        link: 'html/dinopaletas.html',
+        star: 4,
+        price: 70,
+        text: `<i class="fa-solid fa-star"></i>`,
+    },
+    {
+        id: 13,
+        title: 'Bombones',
+        link: 'html/bombones.html',
+        star: 5,
+        price: 50,
+        text: `<i class="fa-solid fa-star"></i>`,
+    },
+    {
+        id: 14,
+        title: 'Galletas',
+        link: 'html/galletas.html',
+        star: 4,
+        price: 60,
+        text: `<i class="fa-solid fa-star"></i>`,
+    },
+    {
+        id: 15,
+        title: 'Galletas',
+        link: 'html/galletas.html',
+        star: 5,
+        price: 100,
+        text: `<i class="fa-solid fa-star"></i>`,
+    },
 ];
 const categories5 = [...new Set(product_pi.map((item5) => { return item5 }))]
 let m = 0;
