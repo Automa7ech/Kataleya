@@ -399,6 +399,15 @@ const product_ss = [
         price: 100,
         text: `<i class="fa-solid fa-star"></i>`,
     },
+    {
+        id: 14,
+        image: "img_drink/panes2.jpg",
+        title: 'Sandwich de queso',
+        link: 'html/panes2.html?nombre=5',
+        star: 4,
+        price: 50,
+        text: `<i class="fa-solid fa-star"></i>`,
+    },
 ];
 const categories4 = [...new Set(product_ss.map((item4) => { return item4 }))]
 let l = 0;
