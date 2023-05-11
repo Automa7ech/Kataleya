@@ -191,14 +191,14 @@ const product_fria = [
         price: 50,
         text: `<i class="fa-solid fa-star"></i>`,
     },
-    {
+  */  {
         id: 2,
         title: 'ChocoMani',
         link: 'html/Chocomani.html?nombre=13',
         star: 4,
         price: 120,
         text: `<i class="fa-solid fa-star"></i>`,
-    },
+    },*/
     {
         id: 3,
         title: 'Naranjada',
@@ -215,14 +215,14 @@ const product_fria = [
         price: 100,
         text: `<i class="fa-solid fa-star"></i>`,
     },
-    {
+  /*  {
         id: 5,
         title: 'Piña Blue',
         link: 'html/PinaBlue.html?nombre=5',
         star: 4,
         price: 150,
         text: `<i class="fa-solid fa-star"></i>`,
-    },
+    },*/
     {
         id: 6,
         title: 'Vaca Negra',
@@ -371,7 +371,7 @@ const product_ss = [
         title: 'Pan c/ Tortilla',
         link: 'html/Tortilla.html',
         star: 3,
-        price: 60,
+        price: 90,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
