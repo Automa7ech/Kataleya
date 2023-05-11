@@ -1,5 +1,5 @@
 const product_esp = [
-  /*  {
+    {
         id: 0,
         image: "img_drink/Naranjada.jpg",
         title: 'Naranjada',
@@ -7,7 +7,7 @@ const product_esp = [
         star: 4,
         price: 100,
         text: `<i class="fa-solid fa-star"></i>`,
-    },*/
+    },
     {
         id: 1,
         image: "img_drink/Pitufo.jpg",
@@ -18,7 +18,7 @@ const product_esp = [
         text: `<i class="fa-solid fa-star"></i>`,
 
     },
-  /*  {
+   {
         id: 2,
         image: "img_drink/PinaBlue.jpg",
         title: 'Piña Blue',
@@ -26,7 +26,7 @@ const product_esp = [
         star: 4,
         price: 150,
         text: `<i class="fa-solid fa-star"></i>`,
-    },*/
+    },
 {
         id: 3,
         image: "img_drink/mousse.jpg",
@@ -191,7 +191,7 @@ const product_fria = [
         price: 50,
         text: `<i class="fa-solid fa-star"></i>`,
     },
-  /*  {
+    {
         id: 2,
         title: 'ChocoMani',
         link: 'html/Chocomani.html?nombre=13',
@@ -206,7 +206,7 @@ const product_fria = [
         star: 4,
         price: 100,
         text: `<i class="fa-solid fa-star"></i>`,
-    },*/
+    },
     {
         id: 4,
         title: 'Piña Colada',
@@ -215,14 +215,14 @@ const product_fria = [
         price: 100,
         text: `<i class="fa-solid fa-star"></i>`,
     },
-  /*  {
+    {
         id: 5,
         title: 'Piña Blue',
         link: 'html/PinaBlue.html?nombre=5',
         star: 4,
         price: 150,
         text: `<i class="fa-solid fa-star"></i>`,
-    },*/
+    },
     {
         id: 6,
         title: 'Vaca Negra',
