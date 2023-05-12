@@ -565,3 +565,10 @@ iframe {
 #mapa {
   height: 500px;
 }
+.p_foto h1 {
+  text-align: center;
+}
+.p_foto p {
+  font-size: 10px;
+  margin: 10px 10px;
+}
