@@ -18,7 +18,7 @@ const product_esp = [
         text: `<i class="fa-solid fa-star"></i>`,
 
     },
-   {
+    {
         id: 2,
         image: "img_drink/PinaBlue.jpg",
         title: 'Piña Blue',
@@ -27,7 +27,7 @@ const product_esp = [
         price: 150,
         text: `<i class="fa-solid fa-star"></i>`,
     },
-{
+    {
         id: 3,
         image: "img_drink/mousse.jpg",
         title: 'Muss de Café',
@@ -78,6 +78,7 @@ const product_cafe = [
         link: 'html/expresso.html?nombre=1',
         star: 4,
         price: 35,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -86,6 +87,7 @@ const product_cafe = [
         link: 'html/Cortado.html?nombre=12',
         star: 5,
         price: 50,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -94,6 +96,7 @@ const product_cafe = [
         link: 'html/Bombom.html?nombre=15',
         star: 4,
         price: 60,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -102,6 +105,7 @@ const product_cafe = [
         link: 'html/Ruso.html?nombre=4',
         star: 5,
         price: 70,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -110,6 +114,7 @@ const product_cafe = [
         link: 'html/Capuccino.html?nombre=16',
         star: 4,
         price: 80,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -118,6 +123,7 @@ const product_cafe = [
         link: 'html/Moka.html?nombre=9',
         star: 3,
         price: 80,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -126,6 +132,7 @@ const product_cafe = [
         link: 'html/Monike.html?nombre=8',
         star: 3,
         price: 40,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -134,6 +141,7 @@ const product_cafe = [
         link: 'html/PinaBlue.html?nombre=5',
         star: 4,
         price: 80,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -142,13 +150,14 @@ const product_cafe = [
         link: 'html/Cubache.html?nombre=11',
         star: 4,
         price: 100,
+        agotado: 0,
         text: `<i class="fa-solid fa-star"></i>`,
     },
 ];
 const categories2 = [...new Set(product_cafe.map((item2) => { return item2 }))]
 let j = 0;
 document.getElementById('nav2').innerHTML = categories2.map((item2) => {
-    var { title, price, star, link, text } = item2;
+    var { title, price, star, link, text, agotado } = item2;
     for (var a = 1; a < 5; a++) {
         if (a < star) {
             text = text + `<i class="fa-solid fa-star"></i>`;
@@ -157,8 +166,9 @@ document.getElementById('nav2').innerHTML = categories2.map((item2) => {
             text = text + `<i class="fa-regular fa-star"></i>`;
         }
     }
-    return (
-        `<div class="card-product">
+    if (agotado == 1) {
+        return (
+            `<div class="card-product">
             <div class="content-card-product">
                 <div class="stars">
                     ${text}
@@ -170,7 +180,8 @@ document.getElementById('nav2').innerHTML = categories2.map((item2) => {
                 <p class="price">$${price}.00</p>
             </div>
         </div>`
-    )
+        )
+    }
 }).join('')
 
 /**********************************************Frias*********************************************/
@@ -181,6 +192,7 @@ const product_fria = [
         link: 'html/Suero.html?nombre=3',
         star: 5,
         price: 150,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -189,6 +201,7 @@ const product_fria = [
         link: 'html/Frappe.html?nombre=10',
         star: 5,
         price: 50,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -197,6 +210,7 @@ const product_fria = [
         link: 'html/Chocomani.html?nombre=13',
         star: 4,
         price: 120,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -205,6 +219,7 @@ const product_fria = [
         link: 'html/Naranjada.html?nombre=7',
         star: 4,
         price: 100,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -213,6 +228,7 @@ const product_fria = [
         link: 'html/PinaColada.html?nombre=6',
         star: 4,
         price: 100,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -221,6 +237,7 @@ const product_fria = [
         link: 'html/PinaBlue.html?nombre=5',
         star: 4,
         price: 150,
+        agotado: 0,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -229,6 +246,7 @@ const product_fria = [
         link: 'html/Vaca Negra.html?nombre=2',
         star: 3,
         price: 80,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -237,6 +255,7 @@ const product_fria = [
         link: 'html/Batido.html?nombre=14',
         star: 5,
         price: 100,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -245,6 +264,7 @@ const product_fria = [
         link: 'html/Mamey.html?nombre=18',
         star: 5,
         price: 100,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -253,13 +273,14 @@ const product_fria = [
         link: 'html/Pitufo.html?nombre=17',
         star: 5,
         price: 80,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
 ];
 const categories3 = [...new Set(product_fria.map((item3) => { return item3 }))]
 let k = 0;
 document.getElementById('nav3').innerHTML = categories3.map((item3) => {
-    var { image, title, price, star, link, text } = item3;
+    var { image, title, price, star, link, text, agotado } = item3;
     for (var a = 1; a < 5; a++) {
         if (a < star) {
             text = text + `<i class="fa-solid fa-star"></i>`;
@@ -268,8 +289,9 @@ document.getElementById('nav3').innerHTML = categories3.map((item3) => {
             text = text + `<i class="fa-regular fa-star"></i>`;
         }
     }
-    return (
-        `<div class="card-product">
+    if (agotado == 1) {
+        return (
+            `<div class="card-product">
             <div class="content-card-product">
                 <div class="stars">
                     ${text}
@@ -281,7 +303,8 @@ document.getElementById('nav3').innerHTML = categories3.map((item3) => {
                 <p class="price">$${price}.00</p>
             </div>
         </div>`
-    )
+        )
+    }
 }).join('')
 
 /**********************************************SS*********************************************/
@@ -292,6 +315,7 @@ const product_ss = [
         link: 'html/Gelatina.html',
         star: 4,
         price: 40,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -300,6 +324,7 @@ const product_ss = [
         link: 'html/Donas.html',
         star: 5,
         price: 80,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -308,6 +333,7 @@ const product_ss = [
         link: 'html/croqueta.html',
         star: 4,
         price: 60,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -316,6 +342,7 @@ const product_ss = [
         link: 'html/Turkino.html',
         star: 5,
         price: 80,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -324,6 +351,7 @@ const product_ss = [
         link: 'html/DulceCoco.html',
         star: 3,
         price: 60,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -332,6 +360,7 @@ const product_ss = [
         link: 'html/PinaBlue.html?nombre=5',
         star: 4,
         price: 70,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -340,6 +369,7 @@ const product_ss = [
         link: 'html/TresGracias.html',
         star: 4,
         price: 50,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -348,6 +378,7 @@ const product_ss = [
         link: 'html/Panquesito.html',
         star: 4,
         price: 40,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -356,6 +387,7 @@ const product_ss = [
         link: 'html/Ensalada.html',
         star: 5,
         price: 100,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -364,6 +396,7 @@ const product_ss = [
         link: 'html/Hamburguesa.html',
         star: 5,
         price: 100,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -372,6 +405,7 @@ const product_ss = [
         link: 'html/Tortilla.html',
         star: 3,
         price: 90,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -380,6 +414,7 @@ const product_ss = [
         link: 'html/CremayMayonesa.html',
         star: 3,
         price: 40,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -388,6 +423,7 @@ const product_ss = [
         link: 'html/Borrachita.html',
         star: 5,
         price: 40,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -397,6 +433,7 @@ const product_ss = [
         link: 'html/mousse.html?nombre=5',
         star: 5,
         price: 100,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -406,13 +443,14 @@ const product_ss = [
         link: 'html/panes2.html?nombre=5',
         star: 4,
         price: 50,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
 ];
 const categories4 = [...new Set(product_ss.map((item4) => { return item4 }))]
 let l = 0;
 document.getElementById('nav4').innerHTML = categories4.map((item4) => {
-    var { image, title, price, star, link, text } = item4;
+    var { image, title, price, star, link, text, agotado } = item4;
     for (var a = 1; a < 5; a++) {
         if (a < star) {
             text = text + `<i class="fa-solid fa-star"></i>`;
@@ -421,8 +459,10 @@ document.getElementById('nav4').innerHTML = categories4.map((item4) => {
             text = text + `<i class="fa-regular fa-star"></i>`;
         }
     }
-    return (
-        `<div class="card-product">
+    if (agotado == 1) {
+
+        return (
+            `<div class="card-product">
             <div class="content-card-product">
                 <div class="stars">
                     ${text}
@@ -434,7 +474,8 @@ document.getElementById('nav4').innerHTML = categories4.map((item4) => {
                 <p class="price">$${price}.00</p>
             </div>
         </div>`
-    )
+        )
+    }
 }).join('')
 
 /**********************************************pi*********************************************/
@@ -445,6 +486,7 @@ const product_pi = [
         link: 'html/PomoAgua.html',
         star: 4,
         price: 40,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -453,6 +495,7 @@ const product_pi = [
         link: 'html/Energizantes.html',
         star: 5,
         price: 200,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -461,6 +504,7 @@ const product_pi = [
         link: 'html/TropiCola.html',
         star: 5,
         price: 150,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -469,6 +513,7 @@ const product_pi = [
         link: 'html/RefrescoKola.html',
         star: 4,
         price: 120,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -477,6 +522,7 @@ const product_pi = [
         link: 'html/RefrescoLimon.html',
         star: 4,
         price: 50,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -485,6 +531,7 @@ const product_pi = [
         link: 'html/PomoGrande.html',
         star: 5,
         price: 400,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -493,6 +540,7 @@ const product_pi = [
         link: 'html/ChupaChupa.html',
         star: 5,
         price: 70,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -501,6 +549,7 @@ const product_pi = [
         link: 'html/RothmansVerde.html',
         star: 5,
         price: 500,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -509,6 +558,7 @@ const product_pi = [
         link: 'html/Cigarros.html',
         star: 4,
         price: 200,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -517,6 +567,7 @@ const product_pi = [
         link: 'html/Cigarros.html',
         star: 4,
         price: 200,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -525,6 +576,7 @@ const product_pi = [
         link: 'html/Cigarros.html',
         star: 3,
         price: 200,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -533,6 +585,7 @@ const product_pi = [
         link: 'html/Cigarros.html',
         star: 4,
         price: 200,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -541,6 +594,7 @@ const product_pi = [
         link: 'html/dinopaletas.html',
         star: 4,
         price: 70,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -549,6 +603,7 @@ const product_pi = [
         link: 'html/bombones.html',
         star: 5,
         price: 50,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -557,6 +612,7 @@ const product_pi = [
         link: 'html/galletas60.html',
         star: 4,
         price: 60,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -565,13 +621,14 @@ const product_pi = [
         link: 'html/galletas100.html',
         star: 5,
         price: 100,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
 ];
 const categories5 = [...new Set(product_pi.map((item5) => { return item5 }))]
 let m = 0;
 document.getElementById('nav5').innerHTML = categories5.map((item5) => {
-    var { title, price, star, link, text } = item5;
+    var { title, price, star, link, text, agotado } = item5;
     for (var a = 1; a < 5; a++) {
         if (a < star) {
             text = text + `<i class="fa-solid fa-star"></i>`;
@@ -580,8 +637,10 @@ document.getElementById('nav5').innerHTML = categories5.map((item5) => {
             text = text + `<i class="fa-regular fa-star"></i>`;
         }
     }
-    return (
-        `<div class="card-product">
+    if (agotado == 1) {
+
+        return (
+            `<div class="card-product">
             <div class="content-card-product">
                 <div class="stars">
                     ${text}
@@ -593,5 +652,6 @@ document.getElementById('nav5').innerHTML = categories5.map((item5) => {
                 <p class="price">$${price}.00</p>
             </div>
         </div>`
-    )
+        )
+    }
 }).join('')
