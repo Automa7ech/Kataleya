@@ -1,15 +1,6 @@
 const product_esp = [
     {
         id: 0,
-        image: "img_drink/Naranjada.jpg",
-        title: 'Naranjada',
-        link: 'html/Naranjada.html?nombre=7',
-        star: 4,
-        price: 100,
-        text: `<i class="fa-solid fa-star"></i>`,
-    },
-    {
-        id: 1,
         image: "img_drink/Pitufo.jpg",
         title: 'Limonada Pitufo',
         link: 'html/Pitufo.html?nombre=17',
@@ -19,16 +10,7 @@ const product_esp = [
 
     },
     {
-        id: 2,
-        image: "img_drink/PinaBlue.jpg",
-        title: 'Piña Blue',
-        link: 'html/PinaBlue.html?nombre=5',
-        star: 4,
-        price: 150,
-        text: `<i class="fa-solid fa-star"></i>`,
-    },
-    {
-        id: 3,
+        id: 1,
         image: "img_drink/mousse.jpg",
         title: 'Muss de Café',
         link: 'html/mousse.html?nombre=5',
@@ -157,7 +139,7 @@ const product_cafe = [
 const categories2 = [...new Set(product_cafe.map((item2) => { return item2 }))]
 let j = 0;
 document.getElementById('nav2').innerHTML = categories2.map((item2) => {
-    var { title, price, star, link, text, agotado } = item2;
+    var { title, price, star, link, text, agotado, especial } = item2;
     for (var a = 1; a < 5; a++) {
         if (a < star) {
             text = text + `<i class="fa-solid fa-star"></i>`;
