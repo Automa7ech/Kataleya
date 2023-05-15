@@ -114,7 +114,7 @@ const product_cafe = [
         link: 'html/Monike.html?nombre=8',
         star: 3,
         price: 40,
-        agotado: 1,
+        agotado: 0,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -192,7 +192,7 @@ const product_fria = [
         link: 'html/Chocomani.html?nombre=13',
         star: 4,
         price: 120,
-        agotado: 1,
+        agotado: 0,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -201,7 +201,7 @@ const product_fria = [
         link: 'html/Naranjada.html?nombre=7',
         star: 4,
         price: 100,
-        agotado: 1,
+        agotado: 0,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -306,7 +306,7 @@ const product_ss = [
         link: 'html/Donas.html',
         star: 5,
         price: 80,
-        agotado: 1,
+        agotado: 0,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -315,7 +315,7 @@ const product_ss = [
         link: 'html/croqueta.html',
         star: 4,
         price: 60,
-        agotado: 1,
+        agotado: 0,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -324,7 +324,7 @@ const product_ss = [
         link: 'html/Turkino.html',
         star: 5,
         price: 80,
-        agotado: 1,
+        agotado: 0,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -333,7 +333,7 @@ const product_ss = [
         link: 'html/DulceCoco.html',
         star: 3,
         price: 60,
-        agotado: 1,
+        agotado: 0,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -342,7 +342,7 @@ const product_ss = [
         link: 'html/PinaBlue.html?nombre=5',
         star: 4,
         price: 70,
-        agotado: 1,
+        agotado: 0,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -360,7 +360,7 @@ const product_ss = [
         link: 'html/Panquesito.html',
         star: 4,
         price: 40,
-        agotado: 1,
+        agotado: 0,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -378,7 +378,7 @@ const product_ss = [
         link: 'html/Hamburguesa.html',
         star: 5,
         price: 100,
-        agotado: 1,
+        agotado: 0,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -396,7 +396,7 @@ const product_ss = [
         link: 'html/CremayMayonesa.html',
         star: 3,
         price: 40,
-        agotado: 1,
+        agotado: 0,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -405,7 +405,7 @@ const product_ss = [
         link: 'html/Borrachita.html',
         star: 5,
         price: 40,
-        agotado: 1,
+        agotado: 0,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -415,7 +415,7 @@ const product_ss = [
         link: 'html/mousse.html?nombre=5',
         star: 5,
         price: 100,
-        agotado: 1,
+        agotado: 0,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
