@@ -539,7 +539,7 @@ iframe {
   padding-top: 30px;
   display: flex;
   justify-content: left;
-  z-index: 3;
+  z-index: 999;
   flex-direction: column;
 }
 .textura {
