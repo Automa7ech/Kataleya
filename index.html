@@ -69,7 +69,16 @@
     <section class="banner">
       <div class="wave"></div>
       <div class="content-banner">
-        <img src="img_base/cafe.png" alt="Cafe" />
+        <div class="wrap">
+          <div>
+            <h2 class="typing">Nuestro cafe es la gasolina</h2>
+            <h2 class="typing" style="animation-delay: 0.5s">
+              que necesitas para tu dia
+            </h2>
+            <h2 class="typing" style="animation-delay: 1s">universitario</h2>
+          </div>
+        </div>
+        <a href="#">Comprar ahora</a>
       </div>
     </section>
     <main class="main-content">
@@ -107,7 +116,7 @@
           <button class="cinco" onclick="accion()">
             <img src="img_base/menu.png" alt="Menu" />
           </button>
-          <h2 class="heading-1 typing">Ofertas Especiales</h2>
+          <h2 class="heading-1">Ofertas Especiales</h2>
         </nav>
         <div id="nav1" class="container-products"></div>
       </section>
@@ -117,8 +126,29 @@
           <button class="cinco" onclick="accion()">
             <img src="img_base/menu.png" alt="Menu" />
           </button>
-          <h2 class="heading-1 typing" style="animation-delay: 2.5s">Rifa</h2>
+          <h2 class="heading-1" style="animation-delay: 2.5s">Rifa</h2>
         </nav>
+        <div class="countdown">
+          <h1>Cuenta regresiva</h1>
+          <ul>
+            <li id="dia">
+              <p></p>
+              Dias
+            </li>
+            <li id="hora">
+              <p></p>
+              Horas
+            </li>
+            <li id="min">
+              <p></p>
+              Minutos
+            </li>
+            <li id="seg">
+              <p></p>
+              Segundos
+            </li>
+          </ul>
+        </div>
         <p>
           Se oferta una mesa a consumir $1500 en el Cafe, para esto deben
           acercarse al local y comprar un numero por $20, los resultados de la
@@ -132,7 +162,7 @@
           <button class="cinco" onclick="accion()">
             <img src="img_base/menu.png" alt="Menu" />
           </button>
-          <h2 class="heading-1 typing" style="animation-delay: 2.5s">
+          <h2 class="heading-1" style="animation-delay: 2.5s">
             Concurso fotografico
           </h2>
         </nav>
@@ -147,8 +177,29 @@
           Los ganadores seran premiados con una oferta especial, la fecha limite
           es el 5 de junio,
         </p>
+        <div class="countdown">
+          <h1>Cuenta regresiva</h1>
+          <ul>
+            <li id="dia1">
+              <p></p>
+              Dias
+            </li>
+            <li id="hora1">
+              <p></p>
+              Horas
+            </li>
+            <li id="min1">
+              <p></p>
+              Minutos
+            </li>
+            <li id="seg1">
+              <p></p>
+              Segundos
+            </li>
+          </ul>
+        </div>
       </div>
-
+      <hr />
       <section class="gallery">
         <img
           src="img_base/gallery1.jpg"
@@ -183,7 +234,7 @@
           <button class="cinco" onclick="accion()">
             <img src="img_base/menu.png" alt="Menu" />
           </button>
-          <h2 class="heading-1 typing" style="animation-delay: 2.5s">
+          <h2 class="heading-1" style="animation-delay: 2.5s">
             Bebidas con Cafe
           </h2>
         </nav>
@@ -195,9 +246,7 @@
           <button class="cinco" onclick="accion()">
             <img src="img_base/menu.png" alt="Menu" />
           </button>
-          <h2 class="heading-1 typing" style="animation-delay: 0.5s">
-            Bebidas Frias
-          </h2>
+          <h2 class="heading-1" style="animation-delay: 0.5s">Bebidas Frias</h2>
         </nav>
         <div id="nav3" class="container-products"></div>
       </section>
@@ -207,7 +256,7 @@
           <button class="cinco" onclick="accion()">
             <img src="img_base/menu.png" alt="Menu" />
           </button>
-          <h2 class="heading-1 typing" style="animation-delay: 1.5s">
+          <h2 class="heading-1" style="animation-delay: 1.5s">
             Sandwiches y snacks
           </h2>
         </nav>
@@ -219,7 +268,7 @@
           <button class="cinco" onclick="accion()">
             <img src="img_base/menu.png" alt="Menu" />
           </button>
-          <h2 class="heading-1 typing" style="animation-delay: 1s">
+          <h2 class="heading-1" style="animation-delay: 1s">
             Productos importados
           </h2>
         </nav>
@@ -257,7 +306,13 @@
     src="https://kit.fontawesome.com/81581fb069.js"
     crossorigin="anonymous"
   ></script>
+  <script src="js/jquery.countdown.min.js"></script>
+
   <script defer src="js/jquery-3.6.4.min.js"></script>
+
+  <script src="js/jquery.countdown.min.js"></script>
+
   <script defer src="js/ext.js"></script>
+  <script defer src="js/animate.js"></script>
   <script defer src="js/bebidas.js"></script>
 </html>
