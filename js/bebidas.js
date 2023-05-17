@@ -201,7 +201,7 @@ const product_fria = [
         link: 'html/Naranjada.html?nombre=7',
         star: 4,
         price: 100,
-        agotado: 0,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -210,7 +210,7 @@ const product_fria = [
         link: 'html/PinaColada.html?nombre=6',
         star: 4,
         price: 100,
-        agotado: 1,
+        agotado: 0,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -306,7 +306,7 @@ const product_ss = [
         link: 'html/Donas.html',
         star: 5,
         price: 80,
-        agotado: 0,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -342,7 +342,7 @@ const product_ss = [
         link: 'html/PinaBlue.html?nombre=5',
         star: 4,
         price: 70,
-        agotado: 0,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -415,7 +415,7 @@ const product_ss = [
         link: 'html/mousse.html?nombre=5',
         star: 5,
         price: 100,
-        agotado: 0,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
