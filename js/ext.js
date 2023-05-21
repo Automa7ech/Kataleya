@@ -29,6 +29,9 @@ $('#cuenta-regresiva').countdown("2023/05/22", function (event) {
             console.log("nop");
         }
 
+        //Lettering
+        $(".lettering").lettering();
+
     });
 })();
 function rando() {

@@ -34,7 +34,7 @@ document.getElementById('nav1').innerHTML = categories1.map((item1) => {
         }
     }
     return (
-        `<div class="card-product">
+        `<div data-aos="fade-up" class="card-product">
             <div class="container-img">
                 <img src="${image}"/>
             </div>
@@ -114,7 +114,7 @@ const product_cafe = [
         link: 'html/Monike.html?nombre=8',
         star: 3,
         price: 40,
-        agotado: 0,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -150,7 +150,7 @@ document.getElementById('nav2').innerHTML = categories2.map((item2) => {
     }
     if (agotado == 1) {
         return (
-            `<div class="card-product">
+            `<div data-aos="flip-down" class="card-product">
             <div class="content-card-product">
                 <div class="stars">
                     ${text}
@@ -192,7 +192,7 @@ const product_fria = [
         link: 'html/Chocomani.html?nombre=13',
         star: 4,
         price: 120,
-        agotado: 0,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -210,7 +210,7 @@ const product_fria = [
         link: 'html/PinaColada.html?nombre=6',
         star: 4,
         price: 100,
-        agotado: 0,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -273,7 +273,7 @@ document.getElementById('nav3').innerHTML = categories3.map((item3) => {
     }
     if (agotado == 1) {
         return (
-            `<div class="card-product">
+            `<div data-aos="zoom-in-up" class="card-product">
             <div class="content-card-product">
                 <div class="stars">
                     ${text}
@@ -315,7 +315,7 @@ const product_ss = [
         link: 'html/croqueta.html',
         star: 4,
         price: 60,
-        agotado: 0,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -324,7 +324,7 @@ const product_ss = [
         link: 'html/Turkino.html',
         star: 5,
         price: 80,
-        agotado: 0,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -333,7 +333,7 @@ const product_ss = [
         link: 'html/DulceCoco.html',
         star: 3,
         price: 60,
-        agotado: 0,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -360,7 +360,7 @@ const product_ss = [
         link: 'html/Panquesito.html',
         star: 4,
         price: 40,
-        agotado: 0,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -378,7 +378,7 @@ const product_ss = [
         link: 'html/Hamburguesa.html',
         star: 5,
         price: 100,
-        agotado: 0,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -396,7 +396,7 @@ const product_ss = [
         link: 'html/CremayMayonesa.html',
         star: 3,
         price: 40,
-        agotado: 0,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -405,7 +405,7 @@ const product_ss = [
         link: 'html/Borrachita.html',
         star: 5,
         price: 40,
-        agotado: 0,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -444,7 +444,7 @@ document.getElementById('nav4').innerHTML = categories4.map((item4) => {
     if (agotado == 1) {
 
         return (
-            `<div class="card-product">
+            `<div data-aos="zoom-in-down" class="card-product">
             <div class="content-card-product">
                 <div class="stars">
                     ${text}
@@ -622,7 +622,8 @@ document.getElementById('nav5').innerHTML = categories5.map((item5) => {
     if (agotado == 1) {
 
         return (
-            `<div class="card-product">
+            `<div data-aos="fade-up"
+            data-aos-duration="1500" class="card-product">
             <div class="content-card-product">
                 <div class="stars">
                     ${text}
