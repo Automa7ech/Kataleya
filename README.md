@@ -1,4 +1,4 @@
-# Kataleya Café
+# Café Kataleya 
 
 Este es el repositorio de la página web del café Kataleya. Aquí encontrarás todo el contenido de la página, incluyendo imágenes, texto y código.
 
@@ -54,7 +54,3 @@ Si deseas contribuir al desarrollo de la página web del café Kataleya, puedes 
 ## Licencia
 
 Este proyecto está bajo la licencia MIT. Puedes leer más detalles en el archivo LICENSE.md.
-
-Daily quota: 8/10
-ENG | ES | عربي | 中文 | فارسی
-
