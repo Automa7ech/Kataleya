@@ -333,7 +333,7 @@ const product_ss = [
         link: 'html/DulceCoco.html',
         star: 3,
         price: 60,
-        agotado: 1,
+        agotado: 0,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
