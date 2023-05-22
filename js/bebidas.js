@@ -114,7 +114,7 @@ const product_cafe = [
         link: 'html/Monike.html?nombre=8',
         star: 3,
         price: 40,
-        agotado: 1,
+        agotado: 0,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
