@@ -5,7 +5,7 @@ const product_esp = [
         title: 'Batido de Cafe',
         link: 'html/batidoDeCafe.html',
         star: 5,
-        price: 1200,
+        price: 120,
         text: `<i class="fa-solid fa-star"></i>`,
 
     },
@@ -263,7 +263,7 @@ const product_fria = [
         title: 'Batido de Cafe',
         link: 'html/batidoDeCafe.html',
         star: 5,
-        price: 80,
+        price: 120,
         agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
