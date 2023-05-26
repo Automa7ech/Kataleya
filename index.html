@@ -7,7 +7,6 @@
     <title>Cafe Kataleya</title>
     <link rel="stylesheet" href="Css/styles.css" />
     <link rel="stylesheet" href="Css/animation.css" />
-    <script src="js/jquery.lettering.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
@@ -129,46 +128,6 @@
             <i class="fa fa-bars"></i>
           </button>
           <h2 class="heading-1 lettering" style="animation-delay: 2.5s">
-            Rifa
-          </h2>
-        </nav>
-        <div data-aos="flip-down">
-          <div class="countdown">
-            <h1>Cuenta regresiva</h1>
-            <ul>
-              <li id="dia">
-                <p></p>
-                Dias
-              </li>
-              <li id="hora">
-                <p></p>
-                Horas
-              </li>
-              <li id="min">
-                <p></p>
-                Minutos
-              </li>
-              <li id="seg">
-                <p></p>
-                Segundos
-              </li>
-            </ul>
-          </div>
-          <p>
-            Se oferta una mesa a consumir $1500 en el Cafe, para esto deben
-            acercarse al local y comprar un numero por $20, los resultados de la
-            rifa se daran a travez de la web y los perfiles oficiales a finales
-            de mes
-          </p>
-        </div>
-      </div>
-      <hr />
-      <div class="p_foto">
-        <nav class="navbar">
-          <button class="cinco" onclick="accion()">
-            <i class="fa fa-bars"></i>
-          </button>
-          <h2 class="heading-1 lettering" style="animation-delay: 2.5s">
             Concurso fotografico
           </h2>
         </nav>
@@ -237,8 +196,8 @@
           class="gallery-img-5"
         />
       </section> -->
-      <section class="fondo">
-        <h1>CAFE KATALEYA</h1>
+      <section id="demo1" class="fondo">
+        <h1 class="letter">CAFE KATALEYA</h1>
       </section>
       <hr />
       <section class="container specials">
@@ -319,7 +278,14 @@
       crossorigin="anonymous"
     ></script>
     <script defer src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/jquery.lettering.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".letter").lettering();
+      });
+    </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script>
       AOS.init();
     </script>
