@@ -264,7 +264,7 @@ const product_fria = [
         link: 'html/batidoDeCafe.html',
         star: 5,
         price: 120,
-        agotado: 1,
+        agotado: 0,
         text: `<i class="fa-solid fa-star"></i>`,
     },
 ];
@@ -315,7 +315,7 @@ const product_ss = [
         link: 'html/Donas.html',
         star: 5,
         price: 80,
-        agotado: 1,
+        agotado: 0,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -414,7 +414,7 @@ const product_ss = [
         link: 'html/Borrachita.html',
         star: 5,
         price: 40,
-        agotado: 0,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -424,7 +424,7 @@ const product_ss = [
         link: 'html/mousse.html?nombre=5',
         star: 5,
         price: 100,
-        agotado: 1,
+        agotado: 0,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -434,7 +434,7 @@ const product_ss = [
         link: 'html/panes2.html?nombre=5',
         star: 4,
         price: 50,
-        agotado: 1,
+        agotado: 0,
         text: `<i class="fa-solid fa-star"></i>`,
     },
 ];
@@ -495,7 +495,7 @@ const product_pi = [
         link: 'html/TropiCola.html',
         star: 5,
         price: 150,
-        agotado: 1,
+        agotado: 0,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
