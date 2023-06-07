@@ -2,7 +2,7 @@ const product_esp = [
     {
         id: 0,
         image: "img_drink/batidoDeCafe.jpg",
-        title: 'Batido de Cafe',
+        title: 'Batido de Kiwi',
         link: 'html/batidoDeCafe.html',
         star: 5,
         price: 120,
@@ -114,7 +114,7 @@ const product_cafe = [
         link: 'html/Monike.html?nombre=8',
         star: 3,
         price: 40,
-        agotado: 0,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -267,6 +267,15 @@ const product_fria = [
         agotado: 0,
         text: `<i class="fa-solid fa-star"></i>`,
     },
+ {
+        id: 10,
+        title: 'Jugo Natural',
+        link: 'html/Carambola.html',
+        star: 4,
+        price: 50,
+        agotado: 0,
+        text: `<i class="fa-solid fa-star"></i>`,
+    },
 ];
 const categories3 = [...new Set(product_fria.map((item3) => { return item3 }))]
 let k = 0;
@@ -333,7 +342,7 @@ const product_ss = [
         link: 'html/Turkino.html',
         star: 5,
         price: 80,
-        agotado: 0,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -414,7 +423,7 @@ const product_ss = [
         link: 'html/Borrachita.html',
         star: 5,
         price: 40,
-        agotado: 1,
+        agotado: 0,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
@@ -424,7 +433,7 @@ const product_ss = [
         link: 'html/mousse.html?nombre=5',
         star: 5,
         price: 100,
-        agotado: 0,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
