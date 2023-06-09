@@ -423,7 +423,7 @@ const product_ss = [
         link: 'html/Borrachita.html',
         star: 5,
         price: 40,
-        agotado: 0,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
