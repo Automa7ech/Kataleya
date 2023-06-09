@@ -228,7 +228,7 @@ const product_fria = [
         link: 'html/Vaca Negra.html?nombre=2',
         star: 3,
         price: 80,
-        agotado: 1,
+        agotado: 0,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
