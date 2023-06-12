@@ -120,7 +120,7 @@ const product_cafe = [
     {
         id: 7,
         title: 'Cafe Frapuchino',
-        link: 'html/PinaBlue.html?nombre=5',
+        link: 'html/Frapuccino.html?nombre=5',
         star: 4,
         price: 80,
         agotado: 1,
