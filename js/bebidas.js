@@ -273,7 +273,7 @@ const product_fria = [
         link: 'html/Carambola.html',
         star: 4,
         price: 50,
-        agotado: 0,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
 ];
@@ -342,7 +342,7 @@ const product_ss = [
         link: 'html/Turkino.html',
         star: 5,
         price: 80,
-        agotado: 0,
+        agotado: 1,
         text: `<i class="fa-solid fa-star"></i>`,
     },
     {
