@@ -218,7 +218,7 @@ const product_fria = [
     id: 2,
     title: "ChocoMani",
     link: "html/Chocomani.html?nombre=13",
-    image: "img_drink/Chocomani.jpg",
+    image: "img_drink/ChocoMani.jpg",
     star: 4,
     price: 120,
     agotado: 0,
