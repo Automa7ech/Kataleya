@@ -320,7 +320,7 @@ const product_fria = [
     image: "img_drink/kiwi.jpg",
     star: 5,
     price: 120,
-    agotado: 0,
+    agotado: 1,
     disponible: 1,
     text: `<i class="fa-solid fa-star"></i>`,
   },
