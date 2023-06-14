@@ -5,7 +5,7 @@
       if(document.getElementById('sabores')){
         //Helados
       var nuevoTitulo = document.createElement("p");
-      var nuevoTexto = document.createTextNode("Menta, Vainilla");
+      var nuevoTexto = document.createTextNode("Chocolate");
       nuevoTitulo.appendChild(nuevoTexto);
       var viejoNodo = document.querySelector("#sabores p");
       viejoNodo.parentNode.replaceChild(nuevoTitulo, viejoNodo);
@@ -14,7 +14,7 @@
       else if (document.getElementById("suero")) {
         //Suero
         var nuevoTitulo1 = document.createElement("p");
-        var nuevoTexto1 = document.createTextNode("Vainilla, Moscatel, Plátano");
+        var nuevoTexto1 = document.createTextNode("Fresa");
         nuevoTitulo1.appendChild(nuevoTexto1);
         var viejoNodo1 = document.querySelector("#suero p");
         viejoNodo1.parentNode.replaceChild(nuevoTitulo1, viejoNodo1);
@@ -23,7 +23,7 @@
       else if (document.getElementById("frappe")) {
         //Frappe
         var nuevoTitulo2 = document.createElement("p");
-        var nuevoTexto2 = document.createTextNode("Uva, Fresa, Melón, Durazno, Guanábana, Manzana, Naranja");
+        var nuevoTexto2 = document.createTextNode("Moscatel");
         nuevoTitulo2.appendChild(nuevoTexto2);
         var viejoNodo2 = document.querySelector("#frappe p");
         viejoNodo2.parentNode.replaceChild(nuevoTitulo2, viejoNodo2);
@@ -32,7 +32,7 @@
       else if (document.getElementById("batido")) {
         //Batido
         var nuevoTitulo3 = document.createElement("p");
-        var nuevoTexto3 = document.createTextNode("Moscatel, Platano, Vainilla");
+        var nuevoTexto3 = document.createTextNode("Menta");
         nuevoTitulo3.appendChild(nuevoTexto3);
         var viejoNodo3 = document.querySelector("#batido p");
         viejoNodo3.parentNode.replaceChild(nuevoTitulo3, viejoNodo3);
@@ -41,7 +41,7 @@
       else if (document.getElementById("natural")) {
         //Batido Natural
         var nuevoTitulo4 = document.createElement("p");
-        var nuevoTexto4 = document.createTextNode("Mamey, Mango");
+        var nuevoTexto4 = document.createTextNode("Mamey");
         nuevoTitulo4.appendChild(nuevoTexto4);
         var viejoNodo4 = document.querySelector("#natural p");
         viejoNodo4.parentNode.replaceChild(nuevoTitulo4, viejoNodo4);

@@ -1,4 +1,4 @@
-
+/*
 // Set the date we're counting down to
 var countDownDate = new Date("May 22, 2023 00:00:00").getTime();
 
@@ -109,3 +109,9 @@ var x1 = setInterval(function () {
         document.getElementById("countdown").innerHTML = "EXPIRED";
     }
 }, 1000);
+
+
+$(document).ready(function () {
+    $(".letter").lettering();
+});
+*/
