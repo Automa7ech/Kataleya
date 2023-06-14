@@ -244,7 +244,7 @@ section {
 .stars {
   grid-row: 1/2;
   grid-column: 1/-1;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Bebas Neue', sans-serif;
   font-size:15px;
   color: var(--primary-color);
 }
