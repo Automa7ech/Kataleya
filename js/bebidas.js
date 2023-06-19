@@ -287,7 +287,7 @@ const product_fria = [
     image: "img_drink/Pitufo.jpg",
     star: 5,
     price: 80,
-    agotado: 0,
+    agotado: 1,
     disponible: 1,
     text: `<i class="fa-solid fa-star"></i>`,
   },
