@@ -14,7 +14,7 @@
       else if (document.getElementById("suero")) {
         //Suero
         var nuevoTitulo1 = document.createElement("p");
-        var nuevoTexto1 = document.createTextNode("Leche Condensada");
+        var nuevoTexto1 = document.createTextNode("Leche Condensada, Fresa ");
         nuevoTitulo1.appendChild(nuevoTexto1);
         var viejoNodo1 = document.querySelector("#suero p");
         viejoNodo1.parentNode.replaceChild(nuevoTitulo1, viejoNodo1);
@@ -32,7 +32,7 @@
       else if (document.getElementById("batido")) {
         //Batido
         var nuevoTitulo3 = document.createElement("p");
-        var nuevoTexto3 = document.createTextNode("Fresa");
+        var nuevoTexto3 = document.createTextNode("Leche condensada ");
         nuevoTitulo3.appendChild(nuevoTexto3);
         var viejoNodo3 = document.querySelector("#batido p");
         viejoNodo3.parentNode.replaceChild(nuevoTitulo3, viejoNodo3);
