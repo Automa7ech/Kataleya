@@ -7,7 +7,16 @@ const product_esp = [
     star: 5,
     price: 80,
     text: `<i class="fa-solid fa-star"></i>`,
-  },
+  },
+{
+    id: 1,
+    title: "Batido de Cafe",
+    link: "html/batidoDeCafe.html",
+    image: "img_drink/batidoDeCafe.jpg",
+    star: 5,
+    price: 150,
+    text: `<i class="fa-solid fa-star"></i>`,
+  },
 ];
 
 const categories1 = [...new Set(product_esp.map((item1) => { return item1 }))]
@@ -298,7 +307,7 @@ const product_fria = [
     image: "img_drink/batidoDeCafe.jpg",
     star: 5,
     price: 150,
-    agotado: 0,
+    agotado: 1,
     disponible: 1,
     text: `<i class="fa-solid fa-star"></i>`,
   },
@@ -546,7 +555,7 @@ const product_ss = [
     star: 4,
     price: 100,
     agotado: 1,
-    disponible: 0,
+    disponible: 1,
     text: `<i class="fa-solid fa-star"></i>`,
   },
 ];
