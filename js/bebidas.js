@@ -17,6 +17,15 @@ const product_esp = [
     price: 150,
     text: `<i class="fa-solid fa-star"></i>`,
   },
+   {
+    id: 2,
+    image: "img_drink/CopaPasion.jpg",
+    title: "Copa Pasión",
+    link: "html/copaPasion.html",
+    star: 5,
+    price: 150,
+    text: `<i class="fa-solid fa-star"></i>`,
+  },
 ];
 
 const categories1 = [...new Set(product_esp.map((item1) => { return item1 }))]
@@ -554,6 +563,17 @@ const product_ss = [
     image: "img_drink/SuperPeque.jpg",
     star: 4,
     price: 100,
+    agotado: 1,
+    disponible: 1,
+    text: `<i class="fa-solid fa-star"></i>`,
+  },
+  {
+    id: 17,
+    image: "img_drink/CopaPasion.jpg",
+    title: "Copa Pasión",
+    link: "html/copaPasion.html",
+    star: 5,
+    price: 150,
     agotado: 1,
     disponible: 1,
     text: `<i class="fa-solid fa-star"></i>`,
