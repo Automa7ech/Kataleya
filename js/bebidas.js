@@ -29,7 +29,7 @@ const product_esp = [
    {
     id: 3,
     image: "img_drink/EspecialDeVerano.jpg",
-    title: "Copa Pasión",
+    title: "Copa Rebelde",
     link: "html/especialDeVerano.html",
     star: 5,
     price: 100,
@@ -353,7 +353,7 @@ const product_fria = [
   },{
     id: 12,
     image: "img_drink/EspecialDeVerano.jpg",
-    title: "Copa Pasión",
+    title: "Copa Rebelde",
     link: "html/especialDeVerano.html",
     star: 5,
     price: 100,
