@@ -26,6 +26,15 @@ const product_esp = [
     price: 150,
     text: `<i class="fa-solid fa-star"></i>`,
   },
+   {
+    id: 3,
+    image: "img_drink/EspecialDeVerano.jpg",
+    title: "Copa Pasión",
+    link: "html/especialDeVerano.html",
+    star: 5,
+    price: 100,
+    text: `<i class="fa-solid fa-star"></i>`,
+  },  
 ];
 
 const categories1 = [...new Set(product_esp.map((item1) => { return item1 }))]
@@ -341,7 +350,17 @@ const product_fria = [
     agotado: 0,
     disponible: 1,
     text: `<i class="fa-solid fa-star"></i>`,
-  },
+  },{
+    id: 12,
+    image: "img_drink/EspecialDeVerano.jpg",
+    title: "Copa Pasión",
+    link: "html/especialDeVerano.html",
+    star: 5,
+    price: 100,
+    agotado: 1,
+    disponible: 1,
+    text: `<i class="fa-solid fa-star"></i>`,
+  }, 
 ];
 const categories3 = [...new Set(product_fria.map((item3) => { return item3 }))]
 let k = 0;
