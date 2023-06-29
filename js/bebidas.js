@@ -756,7 +756,7 @@ const product_pi = [
     star: 4,
     price: 70,
     agotado: 1,
-    disponible: 1,
+    disponible: 0,
     text: `<i class="fa-solid fa-star"></i>`,
   },
   {
