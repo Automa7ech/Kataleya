@@ -7,8 +7,7 @@ const product_esp = [
     star: 5,
     price: 150,
     text: `<i class="fa-solid fa-star"></i>`,
-  },
-  
+  },
    {
     id: 1,
     image: "img_drink/EspecialDeVerano.jpg",
